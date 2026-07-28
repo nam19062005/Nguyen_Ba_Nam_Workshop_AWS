@@ -13,8 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source code
+      - name: Checkout source code (with submodules)
         uses: actions/checkout@v4
+        with:
+          submodules: true        # <-- BẮT BUỘC: checkout theme submodule
+          fetch-depth: 0          # Lấy toàn bộ lịch sử git
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -23,12 +26,12 @@ jobs:
           extended: true
 
       - name: Build website
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://nam19062005.github.io/Nguyen_Ba_Nam_Workshop_AWS/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages # <- đảm bảo đúng tên nhánh bạn dùng để deploy
-          force_orphan: true # <- đảm bảo xóa lịch sử cũ ở nhánh gh-pages (giảm lỗi)
+          publish_branch: gh-pages
+          force_orphan: true
