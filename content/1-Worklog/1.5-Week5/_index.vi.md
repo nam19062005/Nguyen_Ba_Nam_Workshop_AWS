@@ -1,59 +1,25 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2025-09-09
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 5:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Khám phá các dịch vụ AI Managed Service của AWS (**Rekognition, Textract, Transcribe**).
+* Làm chủ **Amazon Bedrock** & **Generative AI** (Prompt Engineering, Foundation Models, RAG Architecture).
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm hiểu các dịch vụ AWS AI: **Amazon Rekognition** (Hình ảnh), **Amazon Textract** (Trích xuất văn bản) | 08/09/2025 | 08/09/2025 | https://aws.amazon.com/ai/ |
+| 3 | - Giới thiệu **Amazon Bedrock**: Lựa chọn Foundation Models (Claude 3.5 Sonnet, Llama 3, Amazon Titan) | 09/09/2025 | 09/09/2025 | AWS Bedrock Docs |
+| 4 | - Kỹ thuật **Prompt Engineering** & Gọi Amazon Bedrock API qua SDK Python (`boto3`) | 10/09/2025 | 10/09/2025 | AWS Study Group |
+| 5 | - Nghiên cứu kiến trúc **RAG (Retrieval-Augmented Generation)** & Knowledge Bases for Amazon Bedrock | 11/09/2025 | 11/09/2025 | AWS AI Blog |
+| 6 | - **Thực hành:** Viết script Python sử dụng `boto3` kết nối Amazon Bedrock API xây dựng trợ lý AI xử lý câu hỏi dựa trên tri thức văn bản lưu trữ tại Amazon S3. | 12/09/2025 | 12/09/2025 | AWS Hands-on Lab |
 
 ### Kết quả đạt được tuần 5:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hiểu rõ cách tích hợp các dịch vụ AI tích hợp sẵn của AWS vào ứng dụng mà không cần huấn luyện mô hình từ đầu.
+* Nắm vững cách thức hoạt động của Amazon Bedrock và quy trình gọi Generative AI Foundation Models bằng lập trình.
+* Xây dựng thành công ứng dụng RAG thử nghiệm giúp truy vấn thông tin chính xác từ tập tài liệu riêng của tổ chức.

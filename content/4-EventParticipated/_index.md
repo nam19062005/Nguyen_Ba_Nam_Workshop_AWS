@@ -1,14 +1,12 @@
 ---
 title: "Events Participated"
-date: 2024-01-01
+date: 2025-08-12
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** for your report, including this warning.
-{{% /notice %}}
+Technical events, seminars, and community workshops attended during the First Cloud AI Journey program are listed below:
 
 > In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
 > 

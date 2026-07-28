@@ -1,58 +1,25 @@
 ---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2025-09-16
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 6:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Chốt chủ đề dự án cá nhân (Workshop Project) đáp ứng tiêu chí ứng dụng AWS Cloud/AI.
+* Thiết kế sơ đồ kiến trúc chuẩn **AWS Well-Architected Framework** và tính toán chi phí trên **AWS Pricing Calculator**.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Đề xuất và chốt bài toán giải pháp thực tế: *Secure Hybrid Access to S3 using VPC Endpoints* | 15/09/2025 | 15/09/2025 | Workshop Guidelines |
+| 3 | - Vẽ **Sơ đồ kiến trúc (Architecture Diagram)** thể hiện luồng dữ liệu giữa VPC Cloud, On-premise VPN & S3 | 16/09/2025 | 16/09/2025 | Draw.io / Lucidchart |
+| 4 | - Đánh giá kiến trúc theo 5 trụ cột AWS Well-Architected Framework (Security, Cost, Performance...) | 17/09/2025 | 17/09/2025 | AWS Well-Architected |
+| 5 | - Ước tính ngân sách dự toán hạ tầng bằng **AWS Pricing Calculator** | 18/09/2025 | 18/09/2025 | AWS Pricing Calculator |
+| 6 | - **Hoàn thiện Báo cáo:** Viết hoàn chỉnh nội dung **Bản đề xuất (Section 2: Proposal)** trên trang báo cáo Hugo. | 19/09/2025 | 19/09/2025 | Hugo Report Template |
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Định hình rõ ràng bài toán, giải pháp và kiến trúc tổng thể cho dự án Workshop cá nhân.
+* Có sơ đồ kiến trúc trực quan giúp trực quan hóa mối liên hệ giữa các dịch vụ AWS.
+* Hoàn thiện bản đề xuất Proposal chi tiết bao gồm ma trận rủi ro, kế hoạch triển khai và ước tính chi phí hạ tầng hàng tháng.

@@ -1,59 +1,25 @@
 ---
 title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+date: 2025-09-30
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 8:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện 3 bài Blog kỹ thuật chia sẻ kiến thức trên Cộng đồng AWS Study Group.
+* Tổng kết toàn bộ 8 mục của Báo cáo thực tập trên Hugo Website song ngữ (VI/EN) và nộp link chính thức qua **FCAJ Portal**.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Hoàn thiện 3 bài blog kỹ thuật chia sẻ kiến thức Cloud/AI (Mục **Section 3: Blogs Posted**) | 29/09/2025 | 29/09/2025 | AWS Study Group |
+| 3 | - Tổng hợp danh sách sự kiện đã tham gia (**Section 4**) & Viết phần tự đánh giá bản thân (**Section 6**) | 30/09/2025 | 30/09/2025 | Hugo Template |
+| 4 | - Viết phần chia sẻ & góp ý cho chương trình (**Section 7**) và hoàn thiện tài liệu đính kèm (**Section 8**) | 01/10/2025 | 01/10/2025 | Hugo Template |
+| 5 | - Kiểm tra tổng thể website báo cáo: Tính nhất quán song ngữ VI/EN, link tải file đính kèm, đường dẫn hình ảnh | 02/10/2025 | 02/10/2025 | Hugo Local Server |
+| 6 | - **Triển khai & Nộp bài:** Push code lên GitHub, bật GitHub Pages (`gh-pages`) và nộp link website chính thức qua **Workshop submission** trên **FCAJ Portal**. | 03/10/2025 | 03/10/2025 | FCAJ Portal Self-Service |
 
 ### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thành 100% tất cả các mục nội dung bắt buộc trong bài báo cáo thực tập First Cloud AI Journey.
+* Xuất bản thành công trang báo cáo dạng Website tĩnh bằng **Hugo Framework** chạy công khai trên **GitHub Pages**.
+* Đã hoàn thành nộp liên kết website báo cáo trên cổng thông tin **FCAJ Portal** đúng thời hạn quy định.

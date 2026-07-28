@@ -1,17 +1,12 @@
 ---
 title: "Workshop"
-date: 2024-01-01
+date: 2025-08-12
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
+# Kết nối bảo mật tới S3 bằng VPC Endpoints trong môi trường Hybrid Cloud
 
 #### Tổng quan
 

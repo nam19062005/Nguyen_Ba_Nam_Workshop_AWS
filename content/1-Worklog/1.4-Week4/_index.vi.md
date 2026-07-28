@@ -1,59 +1,25 @@
 ---
 title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
+date: 2025-09-02
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 4:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Đóng gói ứng dụng với **Docker**, quản lý Image container trên **Amazon ECR**.
+* Tự động hóa khởi tạo hạ tầng Cloud bằng **AWS CloudFormation** (Infrastructure as Code - IaC).
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Học Docker nền tảng: Viết **Dockerfile**, tối ưu Multi-stage build, `docker build`, `docker run` | 01/09/2025 | 01/09/2025 | https://docs.docker.com/ |
+| 3 | - Tạo Repository và push Container Image lên **Amazon ECR (Elastic Container Registry)** | 02/09/2025 | 02/09/2025 | AWS ECR Docs |
+| 4 | - Tổng quan về dịch vụ chạy Container **Amazon ECS (Fargate)** & **Amazon EKS (Kubernetes)** | 03/09/2025 | 03/09/2025 | AWS Study Group |
+| 5 | - Tìm hiểu **Infrastructure as Code (IaC)** với **AWS CloudFormation** (YAML/JSON Templates, Stacks) | 04/09/2025 | 04/09/2025 | AWS CloudFormation Docs |
+| 6 | - **Thực hành:** Viết `Dockerfile` đóng gói ứng dụng Python/Node.js và viết kịch bản `template.yaml` bằng CloudFormation tự động tạo VPC, Subnet, S3 và EC2. | 05/09/2025 | 05/09/2025 | AWS Hands-on Lab |
 
 ### Kết quả đạt được tuần 4:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Thành thạo kỹ năng đóng gói ứng dụng thành Container nhất quán giữa các môi trường.
+* Hiểu và thực hành quản lý kho chứa Container Image an toàn trên AWS ECR.
+* Khởi tạo hạ tầng hoàn toàn tự động bằng kịch bản IaC CloudFormation, giúp tái sử dụng và kiểm soát phiên bản hạ tầng hiệu quả.
