@@ -4,34 +4,55 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout source code (with submodules)
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: true        # <-- BẮT BUỘC: checkout theme submodule
-          fetch-depth: 0          # Lấy toàn bộ lịch sử git
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        run: |
+          wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.134.3/hugo_extended_0.134.3_linux-amd64.deb
+          sudo dpkg -i hugo.deb
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Hugo
+        run: |
+          hugo \
+            --minify \
+            --baseURL "https://nam19062005.github.io/Nguyen_Ba_Nam_Workshop_AWS/"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          hugo-version: "0.134.3"
-          extended: true
+          path: ./public
 
-      - name: Build website
-        run: hugo --minify --baseURL "https://nam19062005.github.io/Nguyen_Ba_Nam_Workshop_AWS/"
-
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
-          force_orphan: true
+        id: deployment
+        uses: actions/deploy-pages@v4
