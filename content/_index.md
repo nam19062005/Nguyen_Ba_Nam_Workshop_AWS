@@ -7,7 +7,10 @@ chapter: false
 
 # Internship Report
 
-### Student Information:
+---
+
+### 👤 Student Information
+
 &emsp; **Full Name:** Nguyen Ba Nam
 
 &emsp; **Student ID:** 2312167
@@ -24,20 +27,23 @@ chapter: false
 
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey (FCAJ)
 
 &emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
 
-![Profile Picture](/images/avatar.png)
+![Student Profile Picture](/images/avatar.png)
 
-### Report Content
+---
 
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [Blogs Posted](3-BlogsPosted/)
-4.  [Events Participated](4-EventParticipated/)
-5.  [Workshop Project](5-Workshop/)
-6.  [Self-Evaluation](6-Self-evaluation/)
-7.  [Sharing and Feedback](7-Feedback/)
-8.  [References & Attachments](8-References/)
+### 📋 Report Content Directory
 
+Click on any section below to navigate to detailed content:
+
+1. 📂 [1. Worklog](1-worklog/)
+2. 📂 [2. Proposal](2-proposal/)
+3. 📂 [3. Blogs Posted](3-blogsposted/)
+4. 📂 [4. Events Participated](4-eventparticipated/)
+5. 📂 [5. Workshop Project](5-workshop/)
+6. 📂 [6. Self-Evaluation](6-self-evaluation/)
+7. 📂 [7. Sharing and Feedback](7-feedback/)
+8. 📂 [8. References & Attachments](8-references/)
