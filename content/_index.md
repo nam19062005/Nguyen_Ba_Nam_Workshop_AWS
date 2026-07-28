@@ -1,27 +1,24 @@
 ---
 title: "Internship Report"
-date: 2024-01-01
+date: 2025-08-12
 weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Nguyen Ba Nam
 
-&emsp; **Phone Number:** 0989888999 
+&emsp; **Student ID:** 2312167
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Phone Number:** 0865341657
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **Email:** nambannguyen@gmail.com
 
-&emsp; **Major:** Information Technology
+&emsp; **University:** Ho Chi Minh City University of Technology (HCMUT - VNU-HCM)
+
+&emsp; **Major:** Computer Science
 
 &emsp; **Class:** AWS082025
 
@@ -31,14 +28,16 @@ chapter: false
 
 &emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
 
-![Your profile picture](/images/avatar.png)
+![Profile Picture](/images/avatar.png)
 
 ### Report Content
 
 1.  [Worklog](1-Worklog/)
 2.  [Proposal](2-Proposal/)
-3.  [BlogsPosted](3-BlogsPosted/)
+3.  [Blogs Posted](3-BlogsPosted/)
 4.  [Events Participated](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Self-evaluation](6-Self-evaluation/)
+5.  [Workshop Project](5-Workshop/)
+6.  [Self-Evaluation](6-Self-evaluation/)
 7.  [Sharing and Feedback](7-Feedback/)
+8.  [References & Attachments](8-References/)
+

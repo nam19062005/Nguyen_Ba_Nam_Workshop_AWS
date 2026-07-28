@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'CloudFormation Template for Workshop Infrastructure - AWS FCJ'
+
+Parameters:
+  EnvironmentName:
+    Type: String
+    Default: Production
+    Description: Environment name prefix
+
+Resources:
+  VPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags:
+        - Key: Name
+          Value: !Sub '${EnvironmentName}-VPC'
+
+  PublicSubnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref VPC
+      CidrBlock: 10.0.1.0/24
+      MapPublicIpOnLaunch: true
+      AvailabilityZone: !Select [0, !GetAZs '']
+      Tags:
+        - Key: Name
+          Value: !Sub '${EnvironmentName}-Public-Subnet'
+
+Outputs:
+  VpcId:
+    Description: Created VPC ID
+    Value: !Ref VPC
