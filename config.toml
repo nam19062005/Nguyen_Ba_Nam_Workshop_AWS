@@ -1,6 +1,6 @@
 baseURL = "https://nam19062005.github.io/Nguyen_Ba_Nam_Workshop_AWS/"
 relativeURLs = false
-canonifyURLs = false
+canonifyURLs = true
 defaultContentLanguage = "vi"
 
 # Default theme for Hugo Learn Theme
