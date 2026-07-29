@@ -1,6 +1,6 @@
 ---
 title: "Báo cáo thực tập"
-date: 2025-08-12
+date: 2026-06-15
 weight: 1
 chapter: false
 ---
@@ -23,15 +23,15 @@ chapter: false
 
 &emsp; **Ngành học:** Khoa học máy tính
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Lớp:** MT23KHM6
 
-&emsp; **Đơn vị thực tập:** Công ty TNHH Amazon Web Services Viet Nam
+&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
 
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey (FCAJ)
+&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
+&emsp; **Thời gian thực tập:** Từ ngày 15/06/2026 đến ngày 14/08/2026
 
-![Ảnh đại diện của sinh viên](/images/avatar.png)
+![Ảnh đại diện sinh viên - Nguyễn Bá Nam](/images/avatar.jpg)
 
 ---
 

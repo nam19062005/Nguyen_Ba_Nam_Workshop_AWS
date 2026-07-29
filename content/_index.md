@@ -1,6 +1,6 @@
 ---
 title: "Internship Report"
-date: 2025-08-12
+date: 2026-06-15
 weight: 1
 chapter: false
 ---
@@ -23,15 +23,15 @@ chapter: false
 
 &emsp; **Major:** Computer Science
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** MT23KHM6
 
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey (FCAJ)
+&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From 15/06/2026 to 14/08/2026
 
-![Student Profile Picture](/images/avatar.png)
+![Student Profile Picture - Nguyen Ba Nam](/images/avatar.jpg)
 
 ---
 
