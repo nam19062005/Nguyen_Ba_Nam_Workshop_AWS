@@ -1,42 +1,21 @@
 ---
 title: "Events Participated"
-date: 2025-08-12
+date: 2026-07-29
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-Technical events, seminars, and community workshops attended during the First Cloud AI Journey program are listed below:
+A list of technical events, seminars, and community workshops attended during the First Cloud AI Journey Bootcamp program:
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
+### [Event 1 - Swinburne Cloud Mastery (04/07/2026)](4.1-Event1/)
 
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+Event held at Floor 26, Bitexco Tower, Ho Chi Minh City. Content focused on sharing practical knowledge, skills, and real-world experience in Cloud Computing from industry experts.
 
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+### [Event 2 - AWS Study Group Meetup (11/07/2026)](4.2-Event2/)
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+Rich content including: Cloud Architect competition finals, sharing experience preparing for AWS Cloud Practitioner certification, risk management, and user experience monitoring on AWS.
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+### [Event 3 - AWS Study Group Meetup (25/11/2026)](4.3-Event3/)
 
-&emsp;**Role:** Attendee  
-
----
-
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
-
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
+Event featuring experience sharing from hackathon participating teams, providing diverse perspectives on solving technical problems in real-world scenarios.

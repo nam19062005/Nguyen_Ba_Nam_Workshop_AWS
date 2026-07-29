@@ -1,125 +1,78 @@
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "Event 2 - AWS Study Group Meetup (11/07/2026)"
+date: 2026-07-11
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Bài thu hoạch: AWS Study Group Meetup – Tháng 7/2026
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+---
 
-### Mục Đích Của Sự Kiện
+### 📌 Thông tin sự kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+| Thông tin | Chi tiết |
+| :--- | :--- |
+| **Tên sự kiện** | AWS Study Group Meetup – Tháng 7/2026 |
+| **Thời gian** | 9:00 AM, ngày 11/07/2026 |
+| **Địa điểm** | Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, TP. Hồ Chí Minh |
+| **Vai trò** | Người tham dự |
 
-### Danh Sách Diễn Giả
+---
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+### 🎯 Mục đích sự kiện
 
-### Nội Dung Nổi Bật
+Sự kiện **AWS Study Group Meetup** tháng 7/2026 được tổ chức với nhiều chủ đề đa dạng nhằm:
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+- Tổ chức **vòng chung kết cuộc thi Cloud Architect** — sân chơi cho các kiến trúc sư Cloud trẻ thể hiện kỹ năng thiết kế hệ thống.
+- Chia sẻ kinh nghiệm thực tế về việc **chuẩn bị và thi chứng chỉ AWS Cloud Practitioner (CLF-C02)**.
+- Giới thiệu phương pháp **quản lý rủi ro** và kỹ thuật **giám sát trải nghiệm người dùng trên AWS**.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+---
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+### 📝 Nội dung sự kiện
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### Chung kết cuộc thi Cloud Architect
+- Các đội thi trình bày giải pháp kiến trúc Cloud của mình trước ban giám khảo là các chuyên gia AWS.
+- Các giải pháp được đánh giá dựa trên **tính khả thi, tối ưu chi phí, bảo mật và khả năng mở rộng** theo tiêu chí AWS Well-Architected Framework.
+- Không khí thi đấu sôi nổi với nhiều ý tưởng sáng tạo, phong cách thiết kế đa dạng từ các đội thi.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### Kinh nghiệm chuẩn bị chứng chỉ AWS Cloud Practitioner
+- Diễn giả chia sẻ **lộ trình học 4–6 tuần** từ người chưa biết gì đến khi tự tin bước vào phòng thi CLF-C02.
+- Giới thiệu các nguồn tài nguyên học tập hiệu quả: **AWS Skill Builder, Udemy, Whizlabs, Tutorials Dojo**, và flash cards.
+- Mẹo làm bài thi: quản lý thời gian, nhận diện keyword trong câu hỏi, loại trừ các đáp án sai.
 
-#### Domain-Driven Design (DDD)
+#### Quản lý rủi ro trên AWS
+- Hướng dẫn sử dụng **AWS Config, AWS CloudTrail và AWS Security Hub** để phát hiện và xử lý rủi ro bảo mật.
+- Xây dựng chiến lược **Disaster Recovery (DR)**: RPO, RTO và các mô hình Backup & Restore, Pilot Light, Warm Standby.
+- Thực hành thiết lập **AWS Budgets và Cost Anomaly Detection** để kiểm soát chi phí và tránh "cloud bill shock".
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+#### Giám sát trải nghiệm người dùng trên AWS
+- Giới thiệu **Amazon CloudWatch Synthetics** và **AWS X-Ray** để theo dõi hiệu suất ứng dụng end-to-end.
+- Sử dụng **CloudWatch RUM (Real User Monitoring)** để thu thập dữ liệu thực từ trình duyệt người dùng.
+- Demo dashboard **CloudWatch** tổng hợp metrics, logs và traces trong một giao diện thống nhất.
 
-#### Event-Driven Architecture
+---
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+### 💡 Kết quả & Bài học rút ra
 
-#### Compute Evolution
+#### Kiến thức kỹ thuật
+- **Thiết kế hệ thống Cloud**: Học hỏi trực tiếp từ các đội thi Cloud Architect cách giải quyết bài toán kiến trúc phức tạp theo AWS Well-Architected Framework.
+- **Lộ trình chứng chỉ rõ ràng**: Sau buổi chia sẻ, đã xác định được kế hoạch cụ thể để hoàn thành chứng chỉ AWS Cloud Practitioner trong vòng 6 tuần tới.
+- **Quản lý rủi ro chủ động**: Hiểu cách cấu hình hệ thống cảnh báo và kiểm soát chi phí ngay từ đầu thay vì chờ đến khi có sự cố.
+- **Observability tổng thể**: Nắm được sự khác biệt giữa monitoring, logging và tracing — ba trụ cột của hệ thống giám sát hiện đại.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+#### Kỹ năng & Kết nối
+- Gặp gỡ và kết nối với các thành viên AWS Study Group tích cực, những người đang cùng hành trình học Cloud.
+- Học được cách **trình bày giải pháp kỹ thuật ngắn gọn, súc tích** qua việc theo dõi các đội thi Cloud Architect.
+- Có thêm **nguồn cảm hứng** để tiếp tục đầu tư học tập nghiêm túc vào lĩnh vực Cloud sau khi gặp gỡ những người đã đạt được kết quả cụ thể.
 
-#### Amazon Q Developer
+---
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+### 🖼️ Hình ảnh sự kiện
 
-### Những Gì Học Được
+> *Hình ảnh minh chứng sẽ được cập nhật sau.*
 
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
-
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+<!-- Thêm ảnh 1: ![AWS Study Group Meetup - Hình 1](/images/4-EventParticipated/4.2-Event2/event2-1.jpg) -->
+<!-- Thêm ảnh 2: ![AWS Study Group Meetup - Hình 2](/images/4-EventParticipated/4.2-Event2/event2-2.jpg) -->
