@@ -11,89 +11,60 @@ pre: " <b> 4.2. </b> "
 **Ngày tổ chức:** 11 tháng 7, 2026  
 **Địa điểm:** Tầng 26, tòa nhà Bitexco, TP. Hồ Chí Minh  
 **Hình thức:** Meetup cộng đồng trực tiếp  
-**Tổ chức:** AWS Study Group Vietnam
+**Tổ chức:** AWS Study Group Vietnam  
+**Vai trò:** Người tham dự  
 
 ---
 
 ### Mục Tiêu Sự Kiện
 
-- Tổ chức vòng chung kết cuộc thi **Cloud Architect** — sân chơi cho các kiến trúc sư Cloud trẻ thể hiện kỹ năng thiết kế hệ thống
-- Chia sẻ kinh nghiệm thực tế chuẩn bị và thi chứng chỉ **AWS Cloud Practitioner (CLF-C02)**
-- Giới thiệu phương pháp **quản lý rủi ro** và kỹ thuật **giám sát trải nghiệm người dùng** trên AWS
-- Kết nối cộng đồng các kỹ sư, sinh viên đang theo đuổi lộ trình AWS tại TP.HCM
+- Tổ chức vòng chung kết cuộc thi **Cloud Architected** — sân chơi cho các kiến trúc sư Cloud trẻ thể hiện kỹ năng thiết kế hệ thống.
+- Chia sẻ kinh nghiệm thực tế, bài học rút ra và cảm nhận từ các diễn giả về các chủ đề: Giám sát vận hành (SLA/Monitoring), Chứng chỉ AWS Cloud Practitioner, và Bảo mật Web App bằng AI Agent.
+- Kết nối cộng đồng các kỹ sư, sinh viên đang theo đuổi lộ trình AWS tại TP.HCM.
 
 ---
 
-### Nội Dung Chính
+### Chung kết cuộc thi Cloud Architected
 
-#### Chung kết cuộc thi Cloud Architect
-
-- Các đội thi trình bày giải pháp kiến trúc Cloud của mình trước ban giám khảo là các chuyên gia AWS.
-- Giải pháp được đánh giá theo **AWS Well-Architected Framework**: tính khả thi, tối ưu chi phí, bảo mật và khả năng mở rộng.
-- Không khí thi đấu sôi nổi với nhiều ý tưởng sáng tạo và phong cách thiết kế đa dạng từ các đội.
-
-#### Kinh nghiệm chuẩn bị chứng chỉ AWS Cloud Practitioner
-
-- Diễn giả chia sẻ **lộ trình học 4–6 tuần** từ người chưa biết gì đến khi tự tin bước vào phòng thi CLF-C02.
-- Các nguồn tài nguyên hiệu quả: **AWS Skill Builder, Udemy, Whizlabs, Tutorials Dojo** và flash cards.
-- Mẹo làm bài thi: quản lý thời gian, nhận diện keyword trong câu hỏi, loại trừ đáp án sai.
-
-#### Quản lý rủi ro trên AWS
-
-- Sử dụng **AWS Config, AWS CloudTrail và AWS Security Hub** để phát hiện và xử lý rủi ro bảo mật.
-- Chiến lược **Disaster Recovery (DR)**: RPO, RTO và các mô hình Backup & Restore, Pilot Light, Warm Standby.
-- Thiết lập **AWS Budgets và Cost Anomaly Detection** để kiểm soát chi phí và tránh "cloud bill shock".
-
-#### Giám sát trải nghiệm người dùng trên AWS
-
-- **Amazon CloudWatch Synthetics** và **AWS X-Ray** để theo dõi hiệu suất ứng dụng end-to-end.
-- **CloudWatch RUM (Real User Monitoring)** để thu thập dữ liệu thực từ trình duyệt người dùng.
-- Demo dashboard **CloudWatch** tổng hợp metrics, logs và traces trong một giao diện thống nhất.
+Vòng chung kết cuộc thi **Cloud Architected** đã diễn ra vô cùng sôi nổi giữa các đội thi xuất sắc nhất. Sau những màn thuyết trình giải pháp kiến trúc ấn tượng theo AWS Well-Architected Framework cùng phần phản biện căng thẳng với ban giám khảo chuyên gia, đội **KLKAT** đã xuất sắc giành chiến thắng chung cuộc của cuộc thi.
 
 ---
 
-### Những Gì Học Được
+### Bảng Tổng Hợp Thông Tin Từ Các Bài Thuyết Trình
 
-#### Kiến Thức Thiết Kế Kiến Trúc
+| STT | Tên diễn giả | Chủ đề | Nội dung chính | Bài học qua từng bài | Cảm nhận |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **01** | **Nguyễn Huỳnh Sơn** | **SLA and Monitoring: From SLA to Monitoring what really matters** | • Khái niệm về SLA (Service Level Agreement) và quản lý rủi ro trong hệ thống.<br>• Phân tích khoảng cách giữa hạ tầng khỏe mạnh ("healthy infrastructure") và trải nghiệm người dùng hạnh phúc ("user happy") thông qua mô hình Tháp Giám sát (Monitoring Pyramid).<br>• Demo thực tế về lỗi kết nối Database tại endpoint `/login` trong khi `/health` check vẫn báo xanh (200 OK) để chứng minh lỗ hổng của việc chỉ giám sát hạ tầng.<br>• Quy trình thiết lập cảnh báo từ Custom Metric qua CloudWatch Alarm đến SNS để thông báo qua Email/Slack. | • Hệ thống vận hành ổn định (CPU/Memory xanh) không đồng nghĩa với việc người dùng có thể sử dụng được dịch vụ thành công.<br>• Cần tập trung đo lường và giám sát các chỉ số hành trình và trải nghiệm thực tế của người dùng (như tỷ lệ đăng nhập thành công, đặt hàng) thay vì chỉ nhìn vào các thông số phần cứng thuần túy.<br>• Hiểu rõ cam kết SLA của nhà cung cấp dịch vụ đám mây (như AWS) chỉ bao gồm hạ tầng cloud, còn trải nghiệm của khách hàng hoàn toàn thuộc về trách nhiệm của người xây dựng hệ thống. | Báo cáo mang tính thực tiễn cao nhờ việc kết hợp lý thuyết quản lý rủi ro với mô hình demo trực quan. Việc chỉ ra điểm mù "mọi thứ đều xanh nhưng user vẫn lỗi" là một góc nhìn rất đắt giá và cần thiết cho các kỹ sư vận hành hệ thống. |
+| **02** | **Ngo Le Tan Huy** | **Inside the Exam: AWS Cloud Practitioner** | • Giới thiệu tổng quan về cấu trúc, thời gian, định dạng và cách thức tính điểm của bài thi chứng chỉ AWS Cloud Practitioner (CLF-C02).<br>• Điểm qua kiến thức trọng tâm của 4 Domain chính: Khái niệm Cloud (24%), Bảo mật & Tuân thủ (30%), Công nghệ & Dịch vụ đám mây (34%), Hóa đơn, Giá cả & Hỗ trợ (12%).<br>• Chia sẻ lộ trình chuẩn bị cá nhân: tư duy bản đồ từ khóa, cách phân tích lỗi sai khi làm bài thi thử, và thực hành trên AWS Free Tier.<br>• Các mẹo làm bài thi: phương pháp loại trừ, tránh nghĩ quá phức tạp, lưu ý bẫy ngôn ngữ và quy trình thủ tục tại trung tâm thi. | • Để chinh phục kỳ thi nền tảng này, không cần kỹ năng viết code hay cấu hình hệ thống chuyên sâu mà cần có cái nhìn tổng quan toàn diện.<br>• Khi học bất kỳ dịch vụ nào, hãy gắn nó với 1-2 từ khóa cốt lõi liên quan đến tình huống thực tế để dễ dàng chọn đáp án đúng.<br>• Việc xem lại và hiểu rõ tại sao các phương án khác sai khi làm đề thử mới là yếu tố mấu chốt giúp tiếp thu kiến thức thật sự. | Bài chia sẻ cực kỳ hệ thống và thực tế, đóng vai trò như một cẩm nang định hướng rõ ràng. Các mẹo nhỏ về phòng thi lạnh hay quản lý thời gian bằng tính năng "flag for review" thể hiện sự chu đáo và trải nghiệm thực tế của người đi trước. |
+| **03** | **Nguyen Tuan Thinh** (Thinh Nguyen) | **Securing Your Web Apps With AWS Security Agent** | • Chỉ ra các nút thắt của phương pháp Pentest truyền thống: tốn thời gian, chi phí vận hành cao ($5k - $20k) và không đồng nhất.<br>• Giới thiệu giải pháp Frontier Agent hoạt động tự động dựa trên Amazon Bedrock, hỗ trợ toàn bộ vòng đời bảo mật từ Đánh giá thiết kế, Kiểm tra mã nguồn đến Pentest chủ động.<br>• Phân tích bài toán chi phí thực tế (mức giá $50/giờ chạy của Agent) chứng minh tính kinh tế so với đội ngũ chuyên gia con người.<br>• Thừa nhận các giới hạn cốt lõi: bị chặn bởi MFA/Biometrics/mTLS, khó phát hiện gian lận logic nghiệp vụ và rủi ro tích lũy giờ chạy nhanh. | • Tận dụng AI để tự động hóa quy trình bảo mật có thể giúp tối ưu hóa đáng kể chi phí và thời gian so với các phương pháp thủ công truyền thống.<br>• Mặc dù AI rất mạnh mẽ trong việc tự động quét mã và khai thác thử lỗ hổng, nó vẫn có những giới hạn bảo mật nghiêm ngặt và không thể thay thế hoàn toàn tư duy context sâu của con người đối với các lỗi logic.<br>• Việc quản lý và giám sát thời gian chạy (Task-Hour) của các ứng dụng AI là bắt buộc để tránh phát sinh chi phí ngoài tầm kiểm soát. | Nội dung mang tính cập nhật xu hướng công nghệ rất cao khi đưa AI (Amazon Bedrock) vào bài toán DevSecOps. Người trình bày rất khách quan khi không chỉ ca ngợi giải pháp mà còn thẳng thắn phân tích kỹ lưỡng về mặt chi phí và các hạn chế thực tế của công cụ. |
 
-- **Đánh giá kiến trúc theo Well-Architected:** Xem trực tiếp các đội thi Cloud Architect trình bày giải pháp giúp tôi hiểu cách áp dụng 5 trụ cột (Operational Excellence, Security, Reliability, Performance, Cost) vào bản vẽ kiến trúc thực tế.
-- **Disaster Recovery trong sơ đồ kiến trúc:** Học được cách biểu diễn các mô hình DR (Pilot Light, Warm Standby) trong sơ đồ kiến trúc — một yếu tố thường bị bỏ qua khi vẽ.
-- **Observability là một layer riêng:** Nhận ra rằng Monitoring Layer trong kiến trúc cần thể hiện rõ sự phân biệt giữa metrics (CloudWatch), logs (CloudWatch Logs), và traces (X-Ray) — không phải gộp chung vào một khối.
+---
 
-#### Lộ Trình Cá Nhân
+### Những Gì Học Được (Góc Nhìn Thiết Kế Kiến Trúc)
 
-- **Kế hoạch học AWS CCP cụ thể:** Sau buổi chia sẻ, xác định được lộ trình 6 tuần để hoàn thành chứng chỉ AWS Cloud Practitioner — bước đầu tiên quan trọng để có nền tảng lý thuyết vững chắc hỗ trợ công việc thiết kế kiến trúc.
-- **Quản lý rủi ro chủ động:** Hiểu cách cấu hình hệ thống cảnh báo và kiểm soát chi phí ngay từ đầu — điều cần được thể hiện trong kiến trúc từ giai đoạn thiết kế, không phải sau khi deploy.
+Dưới góc nhìn của một người đảm nhận vai trò thiết kế kiến trúc hệ thống, sự kiện mang lại cho em những bài học vô giá:
+- **Tầm quan trọng của Observability Layer:** Bài học từ diễn giả Nguyễn Huỳnh Sơn giúp em nhận ra sơ đồ kiến trúc không chỉ cần hiển thị các thành phần phục vụ business logic, mà bắt buộc phải có một Monitoring Layer hoàn chỉnh. Cần sử dụng các Custom Metric thông qua CloudWatch Agent để giám sát trực tiếp các Endpoint nghiệp vụ nhạy cảm, tránh tình trạng hạ tầng báo xanh nhưng luồng nghiệp vụ bị đứt gãy.
+- **Tích hợp AI Agent vào DevSecOps:** Bài thuyết trình về Frontier Agent (Amazon Bedrock) cho thấy xu hướng thiết kế hệ thống hiện đại sẽ chuyển dịch sang hướng tích hợp tự động hóa bảo mật ngay từ khâu CI/CD. Tuy nhiên, kiến trúc sư cần lưu ý các ranh giới bảo mật như MFA hay mTLS khi thiết kế luồng hoạt động của AI Agent.
+- **Tiêu chuẩn hóa kiến trúc đám mây:** Củng cố kiến thức nền tảng AWS thông qua bài chia sẻ về kỳ thi CLF-C02 giúp em hiểu sâu hơn về mô hình trách nhiệm chia sẻ, cách tính toán giá cả và lựa chọn các gói Support Level phù hợp khi tư vấn thiết kế hệ thống.
 
 ---
 
 ### Áp Dụng Vào Thực Tế
 
-- **Bổ sung Observability Layer vào sơ đồ kiến trúc dự án:** Áp dụng ngay sự phân biệt monitoring/logging/tracing vào sơ đồ kiến trúc của nhóm, tách biệt rõ vai trò của CloudWatch Metrics, CloudWatch Logs và X-Ray.
-- **Thêm DR Strategy vào sơ đồ kiến trúc:** Bổ sung ghi chú về RPO/RTO và mô hình DR phù hợp vào sơ đồ tổng thể — giúp kiến trúc trông chuyên nghiệp và toàn diện hơn.
-- **Lên lịch học AWS CCP:** Đặt mục tiêu hoàn thành chứng chỉ AWS Cloud Practitioner trong 6 tuần tới để củng cố kiến thức nền tảng.
-- **Tham gia cuộc thi Cloud Architect mùa tới:** Sau khi quan sát buổi thi, quyết tâm đăng ký tham gia với vai trò thiết kế kiến trúc để tích lũy kinh nghiệm thực chiến.
+- **Tối ưu hóa Monitoring Layer** trong các sơ đồ thiết kế kiến trúc tiếp theo, thể hiện rõ các luồng kiểm soát từ CloudWatch Metric → CloudWatch Alarm → SNS gửi về Email/Slack thay vì chỉ vẽ chung chung.
+- **Xây dựng lộ trình học tập AWS CCP** trong 6 tuần dựa trên phương pháp lập bản đồ từ khóa cốt lõi và Free Tier để củng cố nền tảng kiến thức lý thuyết.
+- **Đánh giá rủi ro và quản trị chi phí AI** khi đưa các dịch vụ GenAI (như Amazon Bedrock) vào kiến trúc, thiết lập các hạn mức cảnh báo ngân sách (AWS Budgets) để ngăn ngừa tình trạng phát sinh chi phí ngoài tầm kiểm soát do thời gian chạy tác vụ.
 
 ---
 
 ### Cảm Nhận Sự Kiện
 
-Tham gia **AWS Study Group Meetup tháng 7/2026** là một buổi học đặc biệt bổ ích — không chỉ về nội dung mà còn về cách nhìn nhận công việc thiết kế kiến trúc của bản thân.
+AWS Study Group Meetup tháng 7/2026 mang lại cho em nguồn năng lượng học tập rất lớn. Vòng chung kết cuộc thi Cloud Architected giúp em thấy được tinh thần học tập và kỹ năng giải quyết vấn đề tuyệt vời từ các đội thi, đặc biệt chúc mừng chiến thắng xứng đáng của đội **KLKAT**.
 
-#### Cuộc thi Cloud Architect — Khoảnh khắc ấn tượng nhất
+Bên cạnh đó, các bài thuyết trình kỹ thuật có chiều sâu từ các anh Nguyễn Huỳnh Sơn, Ngô Lê Tấn Huy, Nguyễn Tuấn Thịnh thực sự mở rộng góc nhìn của em. Sự kết hợp giữa lý thuyết thiết kế, trải nghiệm phòng thi chân thực và các xu hướng công nghệ AI Agent mới nhất giúp buổi meetup không chỉ là một sự kiện chia sẻ thông tin, mà còn là một khóa học thực chiến vô cùng quý giá cho chặng đường phát triển sự nghiệp Cloud của em.
 
-Phần chung kết Cloud Architect là phần tôi chú ý nhất trong suốt buổi meetup. Lần đầu tiên được ngồi xem các đội thi trình bày kiến trúc của mình và nghe ban giám khảo nhận xét trực tiếp — đây là trải nghiệm hoàn toàn khác so với việc tự vẽ trong phòng. Tôi nhận ra rằng một kiến trúc tốt không chỉ cần đúng về mặt kỹ thuật, mà còn cần **có thể bảo vệ được** trước các câu hỏi phản biện từ chuyên gia.
+---
 
-#### Buổi chia sẻ AWS CCP — Thiết thực và rõ ràng
-
-Lộ trình học AWS CCP trong 4–6 tuần được trình bày rất cụ thể — từng tuần học gì, nguồn nào dùng, mẹo nào hiệu quả. Đây chính xác là thứ tôi cần: một kế hoạch có thể thực hiện ngay, không phải lý thuyết chung chung. Sau buổi này, tôi đã lên kế hoạch cụ thể để bắt đầu hành trình chứng chỉ AWS của mình.
-
-#### Observability và Risk Management — Hai thiếu sót trong kiến trúc của tôi
-
-Nghe các diễn giả trình bày về CloudWatch RUM, X-Ray và Disaster Recovery Strategy, tôi nhận ra hai điểm mà sơ đồ kiến trúc mình đang vẽ cho dự án nhóm còn thiếu: chưa phân biệt rõ monitoring/logging/tracing, và chưa thể hiện DR strategy. Ngay sau buổi meetup, tôi đã bổ sung hai yếu tố này vào kiến trúc v1.2.
-
-#### Hình Ảnh Sự Kiện
+### Một Số Hình Ảnh Sự Kiện
 
 > *Hình ảnh minh chứng sẽ được cập nhật sau.*
-
-> Nhìn chung, đây là buổi meetup tập trung nhất về kiến thức kỹ thuật mà tôi từng tham gia. Mỗi chủ đề đều có tính ứng dụng cao và liên quan trực tiếp đến công việc đang làm. Đặc biệt, phần thi Cloud Architect đã truyền cảm hứng mạnh mẽ để tôi nghiêm túc hơn trong việc thiết kế kiến trúc có thể bảo vệ được, không chỉ đẹp về mặt hình thức.
