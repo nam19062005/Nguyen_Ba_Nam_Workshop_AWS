@@ -46,4 +46,4 @@ Click on any section below to navigate to detailed content:
 5. 📂 [5. Workshop Project](5-workshop/)
 6. 📂 [6. Self-Evaluation](6-self-evaluation/)
 7. 📂 [7. Sharing and Feedback](7-feedback/)
-8. 📂 [8. References & Attachments](8-references/)
+

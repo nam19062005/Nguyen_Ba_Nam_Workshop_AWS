@@ -46,4 +46,3 @@ Nhấp vào các mục dưới đây để xem chi tiết nội dung báo cáo:
 5. 📂 [5. Workshop Dự án cá nhân (Workshop Project)](5-workshop/)
 6. 📂 [6. Tự đánh giá bản thân (Self-evaluation)](6-self-evaluation/)
 7. 📂 [7. Chia sẻ & Đóng góp ý kiến (Sharing and Feedback)](7-feedback/)
-8. 📂 [8. Tài liệu tham khảo & Tệp đính kèm (References & Attachments)](8-references/)
