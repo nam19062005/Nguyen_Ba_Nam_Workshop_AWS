@@ -114,5 +114,6 @@ Cutting-edge topic integrating AI (Amazon Bedrock) into DevSecOps. The speaker w
 ### Event Photos
 
 ![AWS Study Group Meetup](/images/event/event2.1.png)
+![AWS Study Group Meetup](/images/event/event2.2.jpeg)
 
 > Overall, this was the most technical meetup I attended. Each topic had high applicability and was directly related to the work. The Cloud Architected finals inspired me to design architectures that can be defended before experts.

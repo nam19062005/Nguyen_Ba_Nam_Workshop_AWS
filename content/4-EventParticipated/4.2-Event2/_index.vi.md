@@ -114,5 +114,6 @@ Nội dung mang tính cập nhật xu hướng công nghệ rất cao khi đưa 
 ### Một Số Hình Ảnh Sự Kiện
 
 ![AWS Study Group Meetup](/images/event/event2.1.png)
+![AWS Study Group Meetup](/images/event/event2.2.jpeg)
 
 > Nhìn chung, đây là buổi meetup tập trung nhất về kiến thức kỹ thuật mà tôi từng tham gia. Mỗi chủ đề đều có tính ứng dụng cao và liên quan trực tiếp đến công việc đang làm. Đặc biệt, phần thi Cloud Architected đã truyền cảm hứng mạnh mẽ để tôi nghiêm túc hơn trong việc thiết kế kiến trúc có thể bảo vệ được trước các chuyên gia.
