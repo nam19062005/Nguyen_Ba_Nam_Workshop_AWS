@@ -17,7 +17,7 @@ chapter: false
 
 &emsp; **Phone Number:** 0865341657
 
-&emsp; **Email:** nambannguyen@gmail.com
+&emsp; **Email:** nam.nguyenbasnam1906@hcmut.edu.vn
 
 &emsp; **University:** Ho Chi Minh City University of Technology (HCMUT - VNU-HCM)
 

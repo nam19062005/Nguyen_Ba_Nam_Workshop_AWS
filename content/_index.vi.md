@@ -17,7 +17,7 @@ chapter: false
 
 &emsp; **Số điện thoại:** 0865341657
 
-&emsp; **Email:** nambannguyen@gmail.com
+&emsp; **Email:** nam.nguyenbasnam1906@hcmut.edu.vn
 
 &emsp; **Trường đại học:** Trường Đại học Bách Khoa - ĐHQG TP.HCM
 

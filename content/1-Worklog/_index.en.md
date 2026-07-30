@@ -10,27 +10,8 @@ During the 8-week First Cloud AI Journey Bootcamp at AWS Vietnam, the weekly lea
 
 The AWS self-study roadmap is designed from **Week 1 to Week 8** (from June 8, 2026, to July 31, 2026). This roadmap combines foundational Cloud/AWS knowledge, MLOps/AI services (SageMaker, Lambda, API Gateway), group projects on fixed schedules, and community events/meetups. Each week has clear **objectives** and **expected achievements**.
 
-### 📌 Group Activities & Fixed Events Overview
-
-- **Week 1 (08/06 - 12/06)**: Kick-off, self-study
-- **Week 2 (15/06 - 19/06)**: Self-study
-- **Week 3 (22/06 - 26/06)**: Self-study
-- **Week 4 (29/06 - 03/07)**:
-  - **01/07**: Team meeting: MLOps introduction + Dataset analysis
-  - **04/07 (Saturday)**: Participated in **Swinburne Cloud Mastery** event
-- **Week 5 (06/07 - 10/07)**:
-  - **08/07**: Team meeting: Architecture design + Proposal writing
-  - **11/07 (Saturday)**: Participated in **FCAJ Meetup 11/07/2026**
-- **Week 6 (13/07 - 17/07)**:
-  - **17/07**: Team meeting: Build SageMaker Pipeline
-- **Week 7 (20/07 - 24/07)**:
-  - **24/07**: Team meeting: Write Lambda + API Gateway + Testing
-  - **25/07 (Saturday)**: Participated in **FCAJ Meetup 25/07/2026**
-- **Week 8 (27/07 - 31/07)**:
-  - **28/07**: Team meeting: Write Blog 1
-  - **29/07**: Team meeting: Write Blog 2
-
 ---
+
 
 **Week 1:** [AWS Overview & Kick-off](1.1-week1/)
 

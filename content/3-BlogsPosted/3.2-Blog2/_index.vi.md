@@ -108,7 +108,7 @@ Các nguyên tắc quản trị cốt lõi cần tuân thủ:
 
 ---
 
-**Nhóm tác giả:** Thành Nhân, Nguyễn Bá Nam, Nam Phan, Nguyễn Trọng Nhân
+**Nhóm tác giả:** Thành Nhân, Nguyễn Bá Nam, Nam Phan, Nguyễn Trọng Nhân, Nguyễn Cảnh Nguyên
 
 **Tài liệu tham khảo:**
 - [IAM Best Practices (AWS Docs)](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)

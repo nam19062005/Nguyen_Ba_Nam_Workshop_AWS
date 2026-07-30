@@ -108,7 +108,7 @@ For real-world engineering problems, understanding the technical nature and prob
 
 ---
 
-**Authors:** Thành Nhân, Nguyễn Bá Nam, Nam Phan, Nguyễn Trọng Nhân
+**Authors:** Thành Nhân, Nguyễn Bá Nam, Nam Phan, Nguyễn Trọng Nhân, Nguyễn Cảnh Nguyên
 
 **References:**
 - [IAM Best Practices (AWS Docs)](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
