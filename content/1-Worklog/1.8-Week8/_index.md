@@ -1,57 +1,36 @@
 ---
 title: "Week 8 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-08-03
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* **Complete and publish the entire Workshop documentation** on Hugo website (bilingual VI/EN) — ready for report submission.
+* Final review of all architecture diagrams: Ensure completeness, accuracy, and proper rendering on the website.
+* Present results to Mentor and support the team in performing **AWS resource Clean-up**.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Mon | - Review entire Hugo website: Check each content page, verify all diagram images display correctly with no broken paths <br> - Test UI on both mobile and desktop (responsive design) <br> - Fix any Markdown formatting errors found during review | 03/08/2026 | 03/08/2026 | Hugo Website |
+| Tue | - **Publish final version** of overall architecture diagram v1.2 to `static/images/` <br> - Update diagram on all relevant Workshop pages <br> - Add descriptive captions to each architecture diagram image | 04/08/2026 | 04/08/2026 | Hugo Static Files |
+| Wed | - Complete **1-Worklog** section (Vietnamese and English): Fill in complete information for all 8 weeks <br> - Complete **6-Self-evaluation**: Self-assess skills before and after the program <br> - Complete **7-Feedback**: Provide comments and suggestions about the FCAJ program | 05/08/2026 | 05/08/2026 | Workshop Template |
+| Thu | - **Project acceptance review** with Mentor: Present the full website and explain the architecture diagram in detail <br> - Receive final feedback and apply corrections (if any) <br> - Note areas for improvement for future projects | 06/08/2026 | 06/08/2026 | Mentor Review |
+| Fri | - Support team in **Clean-up of all AWS resources** following the order in the Cleanup diagram: <br>&emsp; + Delete SageMaker Endpoint → Model → Endpoint Config → Pipeline <br>&emsp; + Delete Lambda Functions, EventBridge Rules, SNS Topic <br>&emsp; + Empty and delete S3 Buckets → Delete IAM Roles <br> - Confirm AWS account has no remaining billable resources | 07/08/2026 | 07/08/2026 | Cleanup Guide |
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Completed and published the full report website** on GitHub Pages with complete bilingual content (Vietnamese-English), all architecture diagrams rendering correctly.
+* Final published architecture diagram set includes:
+  * Overall architecture diagram v1.2 (5 Layers).
+  * Detailed SageMaker Pipeline diagram (4 Steps).
+  * Auto-Retrain Event Flow diagram.
+  * Continuous Deployment Flow diagram.
+  * Real-time Inference API Flow diagram.
+  * Monitoring & Alerting Flow diagram.
+* **Successfully completed project acceptance review** with Mentor, received positive evaluation on documentation quality and architecture diagrams.
+* Supported team in completing **Clean-up of all AWS resources** following the correct order, ensuring no unexpected charges remain on the account.

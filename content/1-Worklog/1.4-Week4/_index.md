@@ -1,57 +1,30 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-07-06
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Deep dive into **SageMaker Training Jobs, HPO (Hyperparameter Optimization)** and **Amazon ECR** to fully understand the team's model training flow.
+* **Draw detailed flow diagrams** for each stage of the SageMaker Pipeline.
+* Begin publishing architecture diagrams to the Workshop Hugo documentation.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Mon | - Study **SageMaker Training & HPO Jobs**: ECR Container pull mechanism, Bayesian Search strategy <br> - Research **Amazon CloudWatch Logs** for Training Job debugging <br> - Create detailed diagram for **Step 1: ProcessingStep** (Input/Output S3 paths, SKLearnProcessor config) | 06/07/2026 | 06/07/2026 | SageMaker Developer Guide |
+| Tue | - Draw detailed diagram for **Step 2 & 3: HyperparameterTuner + EvalStep** <br>&emsp; + HPO Flow: Test multiple parameter sets → Select best model → Save `model.tar.gz` to S3 <br>&emsp; + Eval Flow: Unpack model → Predict on test set → Calculate AUC → Export `evaluation.json` | 07/07/2026 | 07/07/2026 | AWS SageMaker Docs |
+| Wed | - Draw detailed diagram for **Step 4: ConditionStep** <br>&emsp; + True branch (AUC ≥ 0.80): RegisterModel → Model Package Group `Approved` <br>&emsp; + False branch (AUC < 0.80): FailStep → Pipeline stops & reports error <br> - Combine 4 detailed diagrams into a **complete Pipeline overview diagram** | 08/07/2026 | 08/07/2026 | draw.io |
+| Thu | - Prepare architecture images for Workshop documentation: <br>&emsp; + Export overall architecture diagram → `static/images/2-Proposal/architecture.png` <br>&emsp; + Export detailed Pipeline diagram → `static/images/5-Workshop/5.1-Workshop-overview/architecture.png` | 09/07/2026 | 09/07/2026 | Hugo Static Files |
+| Fri | - Integrate diagrams into **5.1-Workshop-overview** page on Hugo website <br> - Write architecture description in English to complete bilingual content for the Overview page | 10/07/2026 | 10/07/2026 | Hugo Documentation |
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Completed **4 detailed diagrams** for each SageMaker Pipeline step — helping the team debug and review code more efficiently.
+* Successfully published **architecture diagrams** to the Workshop Hugo website, making documentation more visual and professional.
+* Gained deep understanding of HPO and ConditionStep mechanisms — able to clearly explain the architecture to people outside the team.
+* Completed bilingual (Vietnamese-English) architecture description for the 5.1-Workshop-overview page.

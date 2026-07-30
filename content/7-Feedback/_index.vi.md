@@ -1,41 +1,56 @@
 ---
-title: "Chia sẻ, đóng góp ý kiến"
-date: 2025-08-12
+title: "Chia sẻ & Đóng góp ý kiến"
+date: 2026-08-07
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-Một số cảm nhận, bài học kinh nghiệm và ý kiến đóng góp xây dựng dành cho Ban tổ chức First Cloud AI Journey Bootcamp:
+Dưới đây là những cảm nhận chân thực, bài học kinh nghiệm và ý kiến đóng góp xây dựng dành cho Ban tổ chức **First Cloud AI Journey Bootcamp** sau 8 tuần tham gia chương trình:
 
-### Đánh giá chung
+---
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+### Đánh giá chung về chương trình
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+**1. Môi trường học tập & làm việc**
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+Chương trình FCAJ tạo ra một môi trường học tập cởi mở và thực chiến, nơi các học viên không chỉ được học lý thuyết mà còn được tự tay triển khai dự án thực tế trên AWS Cloud. Việc được giao nhiệm vụ cụ thể trong nhóm — đặc biệt là vai trò thiết kế kiến trúc mà tôi đảm nhận — giúp tôi có trách nhiệm thực sự với sản phẩm của mình, không chỉ đơn thuần hoàn thành bài tập.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+**2. Sự hỗ trợ từ Mentor & Ban tổ chức**
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+Mentor của chương trình rất nhiệt tình và có kinh nghiệm thực chiến dày dặn. Tôi đặc biệt đánh giá cao việc Mentor không đưa đáp án ngay mà khuyến khích tôi tự tìm hiểu và thử nghiệm — điều này giúp tôi học sâu hơn nhiều so với việc chỉ nghe giảng. Ban tổ chức hỗ trợ logistics và thủ tục nhanh chóng, tạo điều kiện để học viên tập trung vào kỹ thuật.
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+**3. Sự phù hợp với chuyên ngành**
 
+Là sinh viên Khoa học máy tính, nội dung chương trình hoàn toàn phù hợp và bổ sung trực tiếp cho kiến thức đã học. Các dịch vụ như SageMaker, Lambda, EventBridge đều là công nghệ thực tiễn đang được dùng rộng rãi trong ngành, không phải kiến thức hàn lâm xa vời.
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+**4. Cơ hội phát triển kỹ năng**
 
+8 tuần là khoảng thời gian đủ để xây dựng được một dự án có chiều sâu từ A-Z. Tôi đã nâng cao được kỹ năng thiết kế kiến trúc Cloud, tư duy hệ thống, và lần đầu tiên tự tay viết và xuất bản tài liệu kỹ thuật song ngữ trên website — đây là kinh nghiệm thực tế mà chương trình đại học không thể cung cấp.
 
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+**5. Tinh thần đồng đội**
+
+Làm việc trong một nhóm nhỏ với phân công vai trò rõ ràng giúp tôi hiểu sâu hơn về **collaboration trong dự án kỹ thuật thực tế**: tầm quan trọng của việc đặt tên tài nguyên nhất quán, chia sẻ tài liệu kịp thời, và review lẫn nhau trước khi commit.
+
+---
+
+### Điều tôi hài lòng nhất
+
+Điều tôi hài lòng nhất là kết thúc chương trình với một **website báo cáo hoàn chỉnh** và một bộ **sơ đồ kiến trúc chuyên nghiệp** mà tôi tự hào có thể đưa vào portfolio cá nhân. Chương trình không chỉ dạy kỹ thuật mà còn dạy cách làm việc có trách nhiệm và chuyên nghiệp.
+
+---
+
+### Đề xuất cải thiện
+
+* **Tăng số buổi workshop thực hành trực tiếp**: Một số khái niệm phức tạp (như SageMaker Pipeline, EventBridge Event Patterns) sẽ dễ nắm hơn nếu có buổi live demo kèm theo.
+* **Tài liệu hướng dẫn rõ ràng hơn từ đầu**: Cung cấp danh sách rõ ràng các dịch vụ AWS sẽ dùng trong dự án ngay từ tuần 1 để học viên có thể định hướng tự học sớm hơn.
+* **Thêm cơ hội networking**: Tổ chức thêm các buổi giao lưu giữa các nhóm khác nhau để học viên chia sẻ kinh nghiệm và giải pháp đa dạng hơn.
+* **Chứng chỉ hoàn thành chương trình**: Một chứng chỉ hoàn thành chương trình FCAJ Bootcamp sẽ là tài sản có giá trị trong hồ sơ xin việc của học viên.
+
+---
+
+### Lời khuyên cho các bạn tham gia mùa tiếp theo
+
+> *"Đừng sợ vẽ sai kiến trúc lần đầu — vẽ đi rồi sửa mới học được nhiều nhất. Hỏi nhiều, thử nhiều, và đừng ngại chia sẻ với nhóm khi không hiểu."*
+
+Tôi sẽ nhiệt tình giới thiệu chương trình này cho bạn bè và đàn em đang muốn bước vào lĩnh vực Cloud Computing.

@@ -1,44 +1,56 @@
 ---
-title: "Sharing and Feedback"
-date: 2025-08-12
+title: "Sharing & Feedback"
+date: 2026-08-07
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-Feedback and constructive suggestions for the First Cloud AI Journey Bootcamp program, mentors, and organizer team:
- This will help the FCAJ team improve any shortcomings based on the following aspects:
-
-### Overall Evaluation
-
-**1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
-
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
-
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
-
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
-
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
-
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+Below are my honest reflections, lessons learned, and constructive suggestions for the organizers of the **First Cloud AI Journey Bootcamp** after 8 weeks of participation:
 
 ---
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+### Overall Program Evaluation
+
+**1. Learning & Working Environment**
+
+The FCAJ program created an open and hands-on learning environment where participants not only study theory but also get to personally deploy real projects on AWS Cloud. Being assigned a specific team role — particularly the architecture design role I took on — gave me true ownership of the product, rather than simply completing assignments.
+
+**2. Mentor & Organizer Support**
+
+The program's mentors are enthusiastic and have extensive real-world experience. I particularly appreciate that the Mentor didn't give direct answers right away, but instead encouraged me to research and experiment independently — this helped me learn much more deeply than simply listening to lectures. The organizing team handled logistics and procedures quickly, allowing participants to focus on technical work.
+
+**3. Relevance to Major**
+
+As a Computer Science student, the program content was completely relevant and directly supplemented my existing academic knowledge. Services like SageMaker, Lambda, and EventBridge are practical technologies widely used in the industry — not distant academic concepts.
+
+**4. Skill Development Opportunities**
+
+8 weeks was sufficient time to build a comprehensive project from A to Z. I significantly improved my Cloud architecture design skills, systems thinking, and for the first time personally wrote and published bilingual technical documentation on a website — a practical experience that university education cannot provide.
+
+**5. Team Spirit**
+
+Working in a small team with clear role assignments helped me better understand **collaboration in real technical projects**: the importance of consistent resource naming, timely document sharing, and mutual review before committing changes.
 
 ---
 
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+### What I'm Most Satisfied With
+
+What I'm most satisfied with is completing the program with a **comprehensive report website** and a **professional architecture diagram set** that I'm proud to include in my personal portfolio. The program not only taught technical skills but also taught how to work responsibly and professionally.
+
+---
+
+### Suggestions for Improvement
+
+* **More hands-on workshop sessions**: Some complex concepts (like SageMaker Pipeline, EventBridge Event Patterns) would be easier to grasp with accompanying live demo sessions.
+* **Clearer guidance documentation from the start**: Providing a clear list of AWS services that will be used in the project from Week 1 so participants can self-study and orient earlier.
+* **More networking opportunities**: Organize additional exchange sessions between different teams so participants can share experiences and diverse solutions.
+* **Program Completion Certificate**: A FCAJ Bootcamp completion certificate would be a valuable asset in participants' job application portfolios.
+
+---
+
+### Advice for Next Season's Participants
+
+> *"Don't be afraid to draw the wrong architecture the first time — drawing it and then revising it is how you learn the most. Ask many questions, experiment a lot, and don't hesitate to share with your team when you don't understand something."*
+
+I would enthusiastically recommend this program to friends and younger students who want to enter the Cloud Computing field.

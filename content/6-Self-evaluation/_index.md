@@ -1,35 +1,49 @@
 ---
-title: "Self-evaluation"
-date: 2025-08-12
+title: "Self-Evaluation"
+date: 2026-08-07
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During the 3-month internship program at AWS Vietnam (First Cloud AI Journey Bootcamp), the personal evaluation and key learning outcomes are summarized below:
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+Over 8 weeks participating in the **First Cloud AI Journey Bootcamp** at Amazon Web Services Vietnam, below is my personal evaluation of my learning outcomes and contributions:
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+I participated in the role of **system architecture designer** for the group project — building an automated MLOps Platform on AWS for the Telco Customer Churn Prediction problem. Throughout this experience, I significantly improved my skills in **Cloud architecture design, systems thinking, and technical documentation**.
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+To objectively reflect on my internship period, I self-evaluate based on the following criteria:
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+| No. | Criteria | Description | Good | Fair | Average |
+| --- | --- | --- | --- | --- | --- |
+| 1 | **Professional knowledge & skills** | Understanding of AWS Cloud, architecture design, draw.io and AWS Icons proficiency | ✅ | ☐ | ☐ |
+| 2 | **Ability to learn** | Ability to quickly grasp new knowledge about AWS services in a short time | ✅ | ☐ | ☐ |
+| 3 | **Proactiveness** | Proactively researching and proposing architecture improvements without waiting for direction | ☐ | ✅ | ☐ |
+| 4 | **Sense of responsibility** | Completing architecture diagrams on time, ensuring accuracy matches actual code | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Adhering to group meeting schedules, report deadlines and work processes | ☐ | ✅ | ☐ |
+| 6 | **Progressive mindset** | Willingness to accept feedback and revise architecture multiple times to achieve best quality | ✅ | ☐ | ☐ |
+| 7 | **Communication** | Presenting architecture diagrams, explaining technical concepts clearly to the team and Mentor | ☐ | ✅ | ☐ |
+| 8 | **Teamwork** | Close coordination with coding members, synchronizing resource names and confirming data flows | ✅ | ☐ | ☐ |
+| 9 | **Professional conduct** | Respecting teammates' opinions, maintaining positive attitude even when revising from scratch | ✅ | ☐ | ☐ |
+| 10 | **Problem-solving skills** | Independently resolving ambiguous architecture points, referencing AWS Architecture Blog and team discussions | ☐ | ✅ | ☐ |
+| 11 | **Contribution to project/team** | Architecture diagrams served as the foundational document for the Proposal, Workshop, and team report | ✅ | ☐ | ☐ |
+| 12 | **Overall** | General evaluation of the entire program participation period | ✅ | ☐ | ☐ |
 
-### Needs Improvement
+---
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+### Areas for Improvement
+
+* **Greater proactiveness**: Sometimes waited for feedback from Mentor or team before deciding to revise the architecture — need to be more confident in my own technical judgment.
+* **Technical communication skills**: Need to improve presenting complex architecture concepts in a more accessible way for those without deep technical backgrounds.
+* **English technical proficiency**: Need to invest more in reading original AWS English documentation faster and more accurately.
+* **More detailed upfront planning**: Some architecture revisions could have been avoided with clearer planning from the beginning.
+
+---
+
+### Skills Gained After the Program
+
+| Skill | Before | After |
+| --- | --- | --- |
+| AWS Architecture Design | Beginner | Confidently design complex 5-layer systems |
+| draw.io & AWS Icons | No experience | Proficient |
+| Understanding AWS services (SageMaker, Lambda, EventBridge...) | Basic | Deep understanding from an architecture perspective |
+| Technical teamwork in projects | Average | Good |
+| Bilingual technical documentation | No experience | Published complete report website |

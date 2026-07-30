@@ -1,57 +1,33 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-07-20
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Deep dive into **Amazon API Gateway**, **CloudWatch Monitoring** and **SNS Alerting** — the Serving and Monitoring components of the architecture.
+* **Draw the detailed Real-time Inference API flow** diagram and the Monitoring/Alerting diagram.
+* Complete all architecture description documentation (Vietnamese) for every step in the Workshop.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Mon | - Study **Amazon API Gateway**: HTTP API vs REST API, Lambda Proxy Integration, Payload Format v2.0 <br> - Learn CORS Configuration and API security with Throttling <br> - Draw detailed **Real-time Inference Flow**: Client → API Gateway (POST /predict) → Lambda Handler → SageMaker Endpoint → JSON Response | 20/07/2026 | 20/07/2026 | API Gateway Developer Guide |
+| Tue | - Study **Amazon CloudWatch**: Metrics, Alarms, Log Groups, Metric Filters <br> - Understand the difference between Monitoring (CloudWatch), Logging (CloudWatch Logs) and Tracing (X-Ray) <br> - Draw **Monitoring & Alerting diagram**: CloudWatch Alarm (5XX Errors) → SNS → Email | 21/07/2026 | 21/07/2026 | CloudWatch User Guide |
+| Wed | - **Update overall architecture v1.2:** Add Serving Layer (API Gateway + Lambda Handler) and complete the Monitoring Layer <br> - Ensure diagram fully represents all 5 layers: Data / ML Pipeline / Automation / Serving / Monitoring | 22/07/2026 | 22/07/2026 | draw.io |
+| Thu | - Complete Vietnamese architecture descriptions for all Workshop pages: <br>&emsp; + 5.1: Overview & Architecture <br>&emsp; + 5.3: Implementation Steps (7 sub-steps) <br>&emsp; + 5.4: Test & Validation | 23/07/2026 | 23/07/2026 | Workshop Template |
+| Fri | - Translate all architecture descriptions into **English** to fulfill bilingual requirements <br> - Team review to ensure technical terminology is accurate and consistent across both languages | 24/07/2026 | 24/07/2026 | Team Meeting |
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Finalized **overall architecture diagram v1.2** — the final version with all 5 layers complete, ready for the report:
+  * **Data Layer:** S3 Data Lake with `raw/`, `processed/`, `models/` structure.
+  * **ML Pipeline Layer:** SageMaker Pipeline 4 steps (Process → HPO → Eval → Condition).
+  * **Automation Layer:** Lambda + EventBridge + S3 Trigger (Auto-Retrain & CD Flow).
+  * **Serving Layer:** API Gateway + Lambda Handler + SageMaker Serverless Endpoint.
+  * **Monitoring Layer:** CloudWatch Alarms + SNS + Email Notifications.
+* Completed **bilingual (Vietnamese-English) architecture description set** for all Workshop pages.

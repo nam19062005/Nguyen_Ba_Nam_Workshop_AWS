@@ -1,38 +1,49 @@
 ---
 title: "Tự đánh giá"
-date: 2025-08-12
+date: 2026-08-07
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt 3 tháng thực tập tại AWS Viet Nam (chương trình First Cloud AI Journey Bootcamp), tự đánh giá bản thân và kết quả thu hoạch cá nhân được tổng hợp như sau:
+Trong 8 tuần tham gia chương trình **First Cloud AI Journey Bootcamp** tại Amazon Web Services Việt Nam, dưới đây là đánh giá cá nhân về kết quả học tập và đóng góp của bản thân:
 
-Trong suốt thời gian thực tập tại **[Tên công ty/tổ chức]** từ **[ngày bắt đầu]** đến **[ngày kết thúc]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
+Tôi tham gia với vai trò **thiết kế kiến trúc hệ thống** cho dự án nhóm — xây dựng nền tảng MLOps tự động hóa trên AWS cho bài toán dự đoán khách hàng rời bỏ dịch vụ viễn thông. Qua quá trình này, tôi đã nâng cao đáng kể kỹ năng **thiết kế kiến trúc Cloud, tư duy hệ thống, và kỹ năng tài liệu hóa kỹ thuật**.
 
-Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
+Để đánh giá khách quan quá trình thực tập, tôi tự chấm điểm theo các tiêu chí sau:
 
-Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
+| STT | Tiêu chí | Mô tả | Tốt | Khá | Trung bình |
+| --- | --- | --- | --- | --- | --- |
+| 1 | **Kiến thức & Kỹ năng chuyên môn** | Hiểu biết về AWS Cloud, thiết kế kiến trúc, sử dụng draw.io và AWS Icons | ✅ | ☐ | ☐ |
+| 2 | **Khả năng tiếp thu** | Khả năng nắm bắt kiến thức mới về các dịch vụ AWS trong thời gian ngắn | ✅ | ☐ | ☐ |
+| 3 | **Tính chủ động** | Chủ động nghiên cứu, đề xuất cải tiến kiến trúc mà không cần chờ chỉ đạo | ☐ | ✅ | ☐ |
+| 4 | **Tinh thần trách nhiệm** | Hoàn thành bản vẽ kiến trúc đúng hạn, đảm bảo độ chính xác với code thực tế | ✅ | ☐ | ☐ |
+| 5 | **Kỷ luật** | Tuân thủ lịch họp nhóm, deadline báo cáo và quy trình làm việc | ☐ | ✅ | ☐ |
+| 6 | **Tinh thần cầu tiến** | Sẵn sàng tiếp nhận feedback và chỉnh sửa kiến trúc nhiều lần để đạt chất lượng tốt nhất | ✅ | ☐ | ☐ |
+| 7 | **Kỹ năng giao tiếp** | Trình bày sơ đồ kiến trúc, giải thích kỹ thuật rõ ràng cho cả nhóm và Mentor | ☐ | ✅ | ☐ |
+| 8 | **Làm việc nhóm** | Phối hợp chặt chẽ với thành viên code, đồng bộ tên tài nguyên và xác nhận luồng dữ liệu | ✅ | ☐ | ☐ |
+| 9 | **Tác phong chuyên nghiệp** | Tôn trọng ý kiến đồng đội, giữ thái độ tích cực ngay cả khi cần sửa lại từ đầu | ✅ | ☐ | ☐ |
+| 10 | **Kỹ năng giải quyết vấn đề** | Tự tìm cách giải quyết khi sơ đồ chưa rõ ràng, tham khảo AWS Architecture Blog và thảo luận nhóm | ☐ | ✅ | ☐ |
+| 11 | **Đóng góp cho dự án/nhóm** | Sơ đồ kiến trúc là tài liệu nền tảng cho cả Proposal, Workshop và báo cáo của nhóm | ✅ | ☐ | ☐ |
+| 12 | **Tổng thể** | Đánh giá chung toàn bộ quá trình tham gia chương trình | ✅ | ☐ | ☐ |
 
+---
 
-| STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅   | ☐   | ☐          |
-| 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅   | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅   | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅   | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ☐   | ☐   | ✅          |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅   | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅   | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅   | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅   | ☐   | ☐          |
-| 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅   | ☐          |
-| 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅   | ☐   | ☐          |
-| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅   | ☐   | ☐          |
+### Điểm cần cải thiện
 
-### Cần cải thiện
+* **Tính chủ động cao hơn**: Đôi khi còn chờ feedback từ Mentor hoặc nhóm trước khi quyết định chỉnh sửa kiến trúc, cần tự tin hơn vào phán đoán kỹ thuật của bản thân.
+* **Kỹ năng giao tiếp kỹ thuật**: Cần cải thiện cách trình bày các khái niệm kiến trúc phức tạp sao cho dễ hiểu hơn với người không có nền tảng kỹ thuật sâu.
+* **Kỹ năng tiếng Anh chuyên ngành**: Cần đầu tư thêm để đọc tài liệu AWS gốc tiếng Anh nhanh và chính xác hơn.
+* **Lập kế hoạch chi tiết hơn**: Đôi khi việc vẽ lại kiến trúc nhiều lần có thể tránh được nếu lên kế hoạch rõ ràng hơn từ đầu.
 
-* Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
-* Cải thiện trong cách tư duy giải quyết vấn đề
-* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+---
+
+### Kỹ năng đạt được sau chương trình
+
+| Kỹ năng | Trước | Sau |
+| --- | --- | --- |
+| Thiết kế kiến trúc AWS | Mới bắt đầu | Tự tin thiết kế hệ thống 5-layer phức tạp |
+| Sử dụng draw.io & AWS Icons | Chưa biết | Thành thạo |
+| Hiểu các dịch vụ AWS (SageMaker, Lambda, EventBridge...) | Cơ bản | Hiểu sâu từ góc độ kiến trúc |
+| Làm việc nhóm dự án kỹ thuật | Trung bình | Tốt |
+| Viết tài liệu kỹ thuật song ngữ | Chưa có kinh nghiệm | Đã xuất bản website báo cáo hoàn chỉnh |

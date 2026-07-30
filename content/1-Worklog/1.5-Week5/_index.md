@@ -1,57 +1,32 @@
 ---
 title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-07-13
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 5 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Deep dive into **Amazon EventBridge** and **AWS Lambda** — the backbone of the Event-Driven automation flow.
+* **Draw and finalize the detailed Event Flow diagram**: From S3 trigger → Lambda → Pipeline → Model Registry → Auto Deploy.
+* Support drafting Workshop documentation content for the implementation steps (5.3-Implementation).
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Mon | - Study **Amazon EventBridge**: Event Bus, Rules, Event Patterns (JSON), Targets <br> - Learn **S3 Event Notifications** and S3 → Lambda trigger connections <br> - Draw detailed **Auto-Retrain Flow**: S3 Upload → Lambda DriftChecker → Check Data Quality → Start Pipeline | 13/07/2026 | 13/07/2026 | AWS EventBridge User Guide |
+| Tue | - Draw detailed **Continuous Deployment (CD) Flow**: <br>&emsp; + EventBridge Rule catches `ModelPackageStateChange` event (status = `Approved`) <br>&emsp; + Lambda AutoDeployer → Create SageMaker Model → Create/Update Serverless Endpoint | 14/07/2026 | 14/07/2026 | SageMaker Serverless Docs |
+| Wed | - **Update overall architecture v1.1:** Add SNS Notification detail at the end of both flows (notify Pipeline Succeeded/Failed result) <br> - Draw **SNS Notification Flow**: Pipeline Status Change → EventBridge → SNS Topic → Email | 15/07/2026 | 15/07/2026 | AWS SNS Documentation |
+| Thu | - Draft technical description for **5.3-Implementation** section (Vietnamese): <br>&emsp; + Explain each AWS resource creation step <br>&emsp; + Annotate the purpose of each important configuration | 16/07/2026 | 16/07/2026 | Workshop Template |
+| Fri | - Team review meeting: Cross-reference architecture diagram with actually implemented code <br> - Update diagram: Synchronize Lambda Function names and EventBridge Rule names with actual resource names | 17/07/2026 | 17/07/2026 | Team Meeting |
 
 ### Week 5 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Completed a **set of 3 detailed Event Flow diagrams**:
+  * Auto-Retrain Flow diagram (S3 → Lambda → SageMaker Pipeline).
+  * Continuous Deployment Flow diagram (EventBridge → Lambda → Serverless Endpoint).
+  * SNS Notification Flow diagram (Pipeline Status → Email Alert).
+* Updated **overall architecture v1.1** synchronized with actual resource names in code.
+* Initiated Vietnamese technical description for the 5.3-Implementation page.

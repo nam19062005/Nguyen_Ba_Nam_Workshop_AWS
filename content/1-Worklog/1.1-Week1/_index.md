@@ -1,57 +1,35 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-06-15
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 1 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Participate in onboarding, get acquainted with group members and understand the FCAJ program workflow.
+* Learn the fundamentals of AWS Cloud and essential services (IAM, S3, EC2, VPC).
+* Survey the group's problem: **Automated MLOps Platform for Telco Customer Churn Prediction**.
+* Begin researching and **drafting the overall system architecture diagram** for the group project.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Mon | - Join FCAJ Onboarding session <br> - Learn program rules, workflow, and communication tools (Slack, Notion) <br> - Assign team roles: **Received task of designing the system architecture** | 15/06/2026 | 15/06/2026 | FCAJ Internship Guidelines |
+| Tue | - Learn AWS Cloud overview: IaaS/PaaS/SaaS deployment models <br> - Study foundational services: IAM, S3, EC2, VPC, Security Groups <br> - Install AWS CLI v2, configure `aws configure` with Region `ap-southeast-1` | 16/06/2026 | 16/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | - Read technical documentation for the group's Telco Customer Churn problem <br> - Research AWS components to be used: S3, SageMaker, Lambda, EventBridge, API Gateway, SNS, CloudWatch <br> - **Start drafting the system architecture** using draw.io (first draft v0.1) | 17/06/2026 | 17/06/2026 | AWS Architecture Center |
+| Thu | - Research official **AWS Architecture Icons** <br> - Reference MLOps Event-Driven architecture patterns from AWS Blog <br> - Complete draft architecture v0.1: Separate Data Flow and Event Flow lanes | 18/06/2026 | 18/06/2026 | AWS Architecture Blog |
+| Fri | - Present draft architecture v0.1 to Mentor and team members for feedback <br> - Record suggestions: add Monitoring flow, clearly separate Auto-Retrain and API Inference flows | 19/06/2026 | 19/06/2026 | Team Feedback |
 
 ### Week 1 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Understood team structure, role assignments, and the 8-week project roadmap.
+* Completed **system architecture draft v0.1** with main components:
+  * **Data Layer:** S3 Data Lake (`raw/`, `processed/`, `models/`)
+  * **Processing Layer:** SageMaker Processing → Training (HPO) → Evaluation → Model Registry
+  * **Automation Layer:** S3 Event → Lambda → EventBridge → Auto Deploy
+  * **Serving Layer:** API Gateway → Lambda → SageMaker Endpoint
+  * **Monitoring Layer:** CloudWatch → SNS → Email
+* Received feedback from Mentor and identified revision directions for Week 2.
