@@ -36,14 +36,3 @@ To objectively reflect on my internship period, I self-evaluate based on the fol
 * **English technical proficiency**: Need to invest more in reading original AWS English documentation faster and more accurately.
 * **More detailed upfront planning**: Some architecture revisions could have been avoided with clearer planning from the beginning.
 
----
-
-### Skills Gained After the Program
-
-| Skill | Before | After |
-| --- | --- | --- |
-| AWS Architecture Design | Beginner | Confidently design complex 5-layer systems |
-| draw.io & AWS Icons | No experience | Proficient |
-| Understanding AWS services (SageMaker, Lambda, EventBridge...) | Basic | Deep understanding from an architecture perspective |
-| Technical teamwork in projects | Average | Good |
-| Bilingual technical documentation | No experience | Published complete report website |

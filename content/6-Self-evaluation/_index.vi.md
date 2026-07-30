@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tự đánh giá"
 weight: 6
 chapter: false
@@ -30,13 +30,3 @@ Tôi tham gia với vai trò **thiết kế kiến trúc hệ thống** cho dự
 * **Kỹ năng giao tiếp kỹ thuật**: Cần cải thiện cách trình bày kiến trúc phức tạp dễ hiểu hơn.
 * **Kỹ năng tiếng Anh chuyên ngành**: Cần đầu tư thêm để đọc tài liệu AWS gốc tiếng Anh.
 * **Lập kế hoạch chi tiết hơn**: Một số lần vẽ lại kiến trúc có thể tránh được nếu lên kế hoạch rõ hơn từ đầu.
-
-### Kỹ năng đạt được sau chương trình
-
-| Kỹ năng | Trước | Sau |
-| --- | --- | --- |
-| Thiết kế kiến trúc AWS | Mới bắt đầu | Tự tin thiết kế hệ thống 5-layer phức tạp |
-| Sử dụng draw.io & AWS Icons | Chưa biết | Thành thạo |
-| Hiểu các dịch vụ AWS (SageMaker, Lambda, EventBridge...) | Cơ bản | Hiểu sâu từ góc độ kiến trúc |
-| Làm việc nhóm dự án kỹ thuật | Trung bình | Tốt |
-| Viết tài liệu kỹ thuật song ngữ | Chưa có kinh nghiệm | Đã xuất bản website báo cáo hoàn chỉnh |
