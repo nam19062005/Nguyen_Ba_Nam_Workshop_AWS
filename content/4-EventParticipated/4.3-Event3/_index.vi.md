@@ -7,87 +7,61 @@ pre: " <b> 4.3. </b> "
 ---
 
 # Bài Thu Hoạch: AWS Study Group Meetup – Tháng 11/2026
+## (FCAJ Community Day – AABW Hackathon Showcase)
 
 **Ngày tổ chức:** 25 tháng 11, 2026  
-**Địa điểm:** Tầng 26, tòa nhà Bitexco, TP. Hồ Chí Minh  
-**Hình thức:** Meetup cộng đồng trực tiếp  
-**Tổ chức:** AWS Study Group Vietnam
+**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, TP. Hồ Chí Minh  
+**Hình thức:** Meetup cộng đồng trực tiếp (Showcase & Chia sẻ)  
+**Tổ chức:** AWS Study Group Vietnam & Cộng đồng FCAJ  
+**Vai trò:** Người tham dự / Thành viên nhóm OneTeam  
 
 ---
 
 ### Mục Tiêu Sự Kiện
-
-- Chia sẻ kinh nghiệm thực chiến từ các đội đã tham gia **hackathon FCAJ** — hành trình từ ideation đến hoàn thiện MVP
-- Tổng kết hành trình học tập Cloud của cộng đồng trong năm 2026
-- Tạo không gian kết nối, trao đổi và định hướng cho mùa Bootcamp tiếp theo
-- Chia sẻ các cơ hội phát triển: chứng chỉ AWS, internship, và job referrals từ hệ sinh thái FCAJ
+- Giới thiệu giải pháp và đóng góp của các nhóm trong khuôn khổ sự kiện AWS Community Day và Agentic AI Build Week.
+- Chia sẻ kinh nghiệm thực chiến từ các đội tham gia hackathon, rút ra bài học kinh nghiệm về quản trị, kỹ thuật đám mây và tối ưu hóa giải pháp.
+- Lan tỏa giá trị công nghệ, nâng cao kỹ năng thuyết trình ý tưởng trước hội đồng chuyên gia đám mây và kết nối cộng đồng.
 
 ---
 
-### Nội Dung Chính
+### Bảng Tổng Hợp Các Đội Trình Bày
 
-#### Chia sẻ kinh nghiệm từ hackathon
-
-- Các đội tham dự hackathon chia sẻ toàn bộ hành trình: **lên ý tưởng, lựa chọn stack công nghệ, phân chia công việc, debug trong đêm** đến lúc hoàn thành sản phẩm.
-- Mỗi đội trình bày **bài học xương máu**: timeboxing khi thời gian eo hẹp, xử lý conflict trong team, pivot nhanh khi giải pháp ban đầu không khả thi.
-- Các giải pháp AWS được sử dụng: **Lambda, API Gateway, DynamoDB, S3, Bedrock, Rekognition** — cách tích hợp nhanh để có MVP trong 24–48 giờ.
-
-#### Chiến lược giải hackathon hiệu quả
-
-- **Chọn đề đúng**: Ưu tiên bài toán nằm trong vùng thế mạnh của team — đừng cố làm hài lòng giám khảo bằng cách chọn đề khó mà không có domain knowledge.
-- **MVP first, polish later**: Xây phần core chạy được trước, tính năng bổ sung sau — tránh bẫy perfectionism khiến không kịp submit.
-- **Demo là tất cả**: Giám khảo đánh giá qua 5 phút demo — chuẩn bị kịch bản demo mượt mà, tránh live coding lúc áp lực.
-- **Dùng AWS managed services để "cheat" hợp pháp**: Lambda + API Gateway + DynamoDB giúp rút ngắn thời gian phát triển đáng kể.
-
-#### Nhìn lại hành trình và định hướng tiếp theo
-
-- Tổng kết chương trình năm 2026: Điểm mạnh, điểm cần cải thiện và những thay đổi cho mùa Bootcamp tiếp theo.
-- Cơ hội tiếp theo từ hệ sinh thái FCAJ: **AWS Certification paths, internship referrals và full-time job connections**.
+| Số TT | Tên nhóm | Chủ đề trình bày | Nội dung chính từng bài | Những gì học được qua các bài | Một số cảm nhận chung |
+| :---: | :---: | :---: | :--- | :--- | :--- |
+| **1** | **3KA** | **S.H.E.P.H.E.R.D**<br>(Hệ thống đánh giá, dự đoán, phát hiện mối nguy hiểm và điều phối dòng người thông minh) | - **Hành trình 24 giờ:** Trải qua 4 giai đoạn từ đăng ký, xây dựng áp lực, demo đến chiêm nghiệm bài học.<br>- **Tổng quan & Tính năng:** Dùng YOLO, ByteTrack và AWS Agent để phân tích camera trực tiếp, đo mật độ đám đông, dự đoán quá tải và cảnh báo chủ động.<br>- **Thách thức & Kỷ niệm:** Đối mặt với nỗi sợ thiếu kỹ năng AI/AWS, code lỗi, thiếu ngủ nhưng có nhiều trải nghiệm vui vẻ như ăn KFC, uống Redbull và sửa lỗi đến 3AM. | - Cách kết hợp thị giác máy tính thời gian thực, theo dõi đối tượng, suy luận đám mây và Agentic AI.<br>- Kỹ năng tối ưu hóa camera và giảm độ trễ hệ thống dưới áp lực thời gian.<br>- Chuẩn bị tốt cho lần sau: mục tiêu rõ ràng, bộ công cụ sẵn sàng, phân vai cụ thể và tập dượt demo. | - Việc dám xuất hiện và tham gia đã là một nửa chiến thắng.<br>- Một sản phẩm nhỏ hoàn thiện tốt luôn giá trị hơn một ý tưởng lớn nhưng dang dở.<br>- Những con người và đồng đội gặp được trên hành trình quan trọng hơn giải thưởng. |
+| **2** | **Signal Scout** | **SignalScout**<br>(Hệ thống phát hiện sớm các tín hiệu thay đổi chiến lược của doanh nghiệp) | - **Mục tiêu:** Thu thập, liên kết các tín hiệu rời rạc và xác thực dữ liệu để phát hiện sớm các dấu hiệu tái cấu trúc, thay đổi chiến lược của doanh nghiệp nhằm hỗ trợ quản trị rủi ro.<br>- **Kiến trúc & Chi phí:** Phân tích chi tiết mô hình kiến trúc và dự toán ngân sách AWS (Bedrock, AgentCore, WAF...) theo 3 mức tải Min/Mid/Max để tối ưu hóa. | - Cách quản lý triển khai đa dịch vụ, khám phá dịch vụ (Service discovery) và xử lý mạng lưới.<br>- Thiết lập luồng CI/CD cho các bản phát hành liên tục trong hệ thống phân tán.<br>- Phương pháp tối ưu chi phí chi tiết cho từng dịch vụ đám mây. | - Quá trình đối mặt với thách thức hạ tầng phức tạp giúp nâng cao năng lực kết hợp giữa AI, Kỹ thuật phần mềm (SE) và Kiến trúc hạ tầng (IA).<br>- Nhận thức rõ chặng đường phía trước để hoàn thiện sản phẩm còn rất dài. |
+| **3** | **Plan V** | **Solution Architect Professional AI Native App**<br>(Ứng dụng AI chuyên dụng cho Kiến trúc sư giải pháp) | - **Vấn đề:** Quy trình làm việc cũ của một SA rất tốn thời gian khi phải đọc thủ công tài liệu yêu cầu, tự vẽ sơ đồ từ đầu và ước tính chi phí dựa trên kinh nghiệm.<br>- **Giải pháp AI Native:** Tự động phân tích yêu cầu ngôn ngữ tự nhiên, phác thảo kiến trúc hybrid-cloud, tự tạo sơ đồ Drawio/AWS và ước tính chi phí nhanh cho vùng ap-southeast-1. | - Cách ứng dụng Agentic AI để tự động hóa hoàn toàn một quy trình nghiệp vụ chuyên sâu và phức tạp của Giải pháp Kiến trúc sư.<br>- Cách chuyển đổi từ việc tạo mã hạ tầng (IaC) và sơ đồ thủ công sang tương tác hội thoại tự động. | - Sự thay đổi và bứt phá mạnh mẽ về năng suất làm việc trước và sau khi áp dụng giải pháp AI Native.<br>- Khả năng tối ưu hóa thời gian làm việc căng thẳng từ nhiều giờ liền xuống chỉ còn vài phút nhờ trợ lý AI. |
+| **4** | **OneTeam** *(Nhóm của em)* | **OneTeam Community Day Presentation** | - **Mục tiêu:** Giới thiệu giải pháp và đóng góp của nhóm trong khuôn khổ sự kiện AWS Community Day và Agentic AI Build Week.<br>- **Hoạt động chính:** Trình bày kết quả nghiên cứu, ứng dụng công nghệ để giải quyết bài toán thực tế của cộng đồng và thúc đẩy chia sẻ tri thức công nghệ. | - Cách tổ chức, làm việc nhóm và tối ưu hóa giải pháp công nghệ phục vụ cộng đồng trong thời gian ngắn.<br>- Kinh nghiệm chuyển giao và trình bày ý tưởng trước hội đồng chuyên gia đám mây. | - Tinh thần kết nối, lan tỏa giá trị công nghệ đến với cộng đồng là nguồn động lực lớn.<br>- Niềm tự hào khi đóng góp một phần giải pháp thiết thực vào sự phát triển chung của hệ sinh thái công nghệ. |
 
 ---
 
-### Những Gì Học Được
+### Những Gì Học Được (Góc Nhìn Thiết Kế Kiến Trúc)
 
-#### Kiến Trúc Nhanh Dưới Áp Lực
-
-- **Serverless-first trong hackathon:** Kiến trúc Lambda + API Gateway + DynamoDB là lựa chọn tối ưu khi thời gian hạn hẹp — không cần lo provision server, tập trung 100% vào business logic và flow.
-- **Kiến trúc MVP vs Kiến trúc Production:** Lần đầu tiên tôi thấy rõ sự khác biệt giữa hai loại này. Trong hackathon, không cần High Availability, không cần Multi-AZ — chỉ cần chạy được và demo được. Đây là bài học thiết kế quan trọng: **biết khi nào cần "đủ tốt" thay vì "tốt nhất"**.
-- **Thời gian là biến thiết kế:** Trong môi trường hackathon, thời gian là ràng buộc cứng nhất. Kiến trúc sư cần biết chọn service nào giúp team đi nhanh nhất, không phải service nào "đúng nhất" về lý thuyết.
-
-#### Tư Duy Trình Bày Kiến Trúc
-
-- **Demo-driven architecture:** Bài học về "Demo là tất cả" khiến tôi nhìn lại cách trình bày sơ đồ kiến trúc của mình — một sơ đồ kiến trúc tốt cũng cần có "demo script" riêng: câu chuyện dẫn dắt người xem đi theo luồng logic, không phải để họ tự đọc.
-- **Scope it tiny, done well:** Nguyên tắc hackathon này cũng áp dụng cho việc thiết kế kiến trúc: thay vì vẽ một kiến trúc quá phức tạp từ đầu, hãy bắt đầu với core flow đơn giản nhất, rồi mở rộng dần.
+Dưới góc nhìn của một người đảm nhận vai trò thiết kế kiến trúc hệ thống, sự kiện mang lại cho em những bài học vô giá:
+- **Tối ưu hóa kiến trúc theo chi phí & hiệu năng (Min/Mid/Max):** Bài học từ nhóm Signal Scout về việc phân tích chi tiết mô hình kiến trúc và dự toán ngân sách AWS theo 3 mức tải giúp em hiểu sâu hơn cách thiết kế các hệ thống Cloud linh hoạt và thực tế hơn.
+- **Tự động hóa công việc của Solution Architect:** Giải pháp của nhóm Plan V về ứng dụng AI Native tự động sinh sơ đồ Draw.io/AWS và tính chi phí mở ra một hướng đi rất mới: làm thế nào để chính công cụ AI hỗ trợ đắc lực cho công việc thiết kế kiến trúc của chúng em, giảm bớt các thao tác thủ công tốn thời gian.
+- **Tính thực tế và hoàn thiện (MVP):** Nhóm 3KA chỉ ra rằng một sản phẩm nhỏ hoàn thiện tốt (như việc kết hợp YOLO, ByteTrack và AWS Agent với độ trễ thấp) có giá trị hơn một ý tưởng lớn nhưng dang dở.
 
 ---
 
 ### Áp Dụng Vào Thực Tế
 
-- **Xây dựng "Architecture Demo Script":** Từ nay, mỗi sơ đồ kiến trúc sẽ đi kèm một kịch bản trình bày ngắn — dẫn người xem đi theo luồng dữ liệu từ trái sang phải, giải thích *tại sao* chọn service này thay vì service khác.
-- **Thực hành thiết kế kiến trúc MVP:** Luyện tập vẽ nhanh kiến trúc Serverless MVP cho các bài toán đơn giản — chuẩn bị cho khả năng tham gia hackathon.
-- **Đăng ký hackathon mùa tiếp theo:** Quyết tâm tham gia hackathon FCAJ mùa 2027 với vai trò thiết kế kiến trúc cho nhóm — áp dụng tất cả những gì đã học.
-- **Lên kế hoạch AWS SAA:** Sau khi hoàn thành AWS CCP, lập kế hoạch tiếp tục lên chứng chỉ **Solutions Architect Associate** trong 3 tháng tới.
+- **Áp dụng mô hình dự toán chi phí Min/Mid/Max** vào các bản thiết kế kiến trúc tiếp theo của mình để làm rõ hơn tính khả thi về mặt tài chính cho khách hàng hoặc nhóm phát triển.
+- **Nghiên cứu các công cụ IaC (Infrastructure as Code) và tự động hóa sơ đồ kiến trúc** giống như hướng đi của Plan V để tối ưu hóa quy trình làm việc cá nhân.
+- **Sử dụng tinh thần "MVP hoàn thiện"** khi lên kế hoạch và phân chia các giai đoạn thiết kế, đảm bảo luồng nghiệp vụ cốt lõi hoạt động mượt mà trước khi thêm các tính năng nâng cao.
 
 ---
 
 ### Cảm Nhận Sự Kiện
 
-**AWS Study Group Meetup tháng 11/2026** là buổi meetup cuối cùng trong năm của chương trình FCAJ, và cũng là buổi để lại cho tôi nhiều suy nghĩ nhất về hướng đi tiếp theo.
+AWS Study Group Meetup tháng 11/2026 là một trải nghiệm trọn vẹn và tự hào của em cùng nhóm OneTeam.
 
-#### Khi kiến trúc phải "chạy" trong 48 giờ
+Việc cùng cả nhóm OneTeam chuẩn bị slide, tóm tắt các đóng góp công nghệ và trình bày trước hội đồng chuyên gia đám mây giúp em rèn luyện kỹ năng truyền tải ý tưởng và thiết kế. Qua những câu hỏi phản biện từ ban giám khảo, em hiểu rõ hơn các góc nhìn thực tế của chuyên gia khi đánh giá một sơ đồ kiến trúc hay một hệ thống Cloud.
 
-Nghe các đội chia sẻ về hackathon, tôi bị cuốn hút vào một câu hỏi: *nếu tôi phải thiết kế kiến trúc cho một sản phẩm trong 24 giờ, tôi sẽ bắt đầu từ đâu?* Câu trả lời từ các đội rất nhất quán: **Lambda + API Gateway + DynamoDB + S3** là bộ ba đủ mạnh để MVP bất kỳ ý tưởng nào lên cloud trong thời gian ngắn nhất. Đây là kiến thức thực chiến không có trong bất kỳ tài liệu AWS nào.
+Đặc biệt, tinh thần kết nối, lan tỏa giá trị công nghệ từ các nhóm khác như 3KA, Signal Scout, Plan V đã truyền lửa và mang lại nguồn động lực lớn để em tiếp tục nâng cao năng lực Cloud, Kỹ thuật phần mềm (SE) và Kiến trúc hạ tầng (IA) trong tương lai.
 
-#### Bài học về MVP Architecture khiến tôi suy nghĩ lại
+---
 
-Suốt chương trình FCAJ, tôi đã vẽ kiến trúc theo hướng "production-ready" — 5 layers, IAM roles chi tiết, VPC endpoints, DR strategy. Nhưng sau buổi meetup này, tôi nhận ra mình cần thêm một loại tư duy khác: **thiết kế kiến trúc theo context**. Một kiến trúc hackathon 48 giờ khác hoàn toàn với kiến trúc enterprise 5 năm — và cả hai đều "đúng" trong ngữ cảnh của chúng.
-
-#### Câu chuyện về "pivot" — Kỹ năng ít được nói đến nhất
-
-Một trong các đội chia sẻ rằng họ đã phải pivot hoàn toàn ý tưởng ban đầu sau 6 giờ vì giải pháp không khả thi. Điều ấn tượng là họ vẫn hoàn thành và submit được sản phẩm. Từ góc độ kiến trúc, đây là bài học về **thiết kế modular từ đầu** — khi cần pivot, chỉ cần thay một module, không phải vẽ lại toàn bộ từ đầu.
-
-#### Hình Ảnh Sự Kiện
+### Một Số Hình Ảnh Sự Kiện
 
 > *Hình ảnh minh chứng sẽ được cập nhật sau.*
-
-> Nhìn chung, buổi meetup cuối năm này là lời nhắc nhở rằng học Cloud không dừng lại ở việc biết các dịch vụ AWS — mà là biết **khi nào dùng dịch vụ nào, với mục tiêu gì, trong bao lâu**. Hackathon là môi trường lý tưởng nhất để rèn luyện loại tư duy đó, và tôi đã quyết tâm trải nghiệm trực tiếp trong mùa Bootcamp tiếp theo.
