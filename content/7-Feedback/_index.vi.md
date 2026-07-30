@@ -1,6 +1,5 @@
----
+﻿---
 title: "Chia sẻ & Đóng góp ý kiến"
-date: 2026-08-07
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
@@ -14,38 +13,38 @@ Dưới đây là những cảm nhận chân thực, bài học kinh nghiệm v�
 
 **1. Môi trường học tập & làm việc**
 
-Chương trình FCAJ tạo ra một môi trường học tập cởi mở và thực chiến, nơi các học viên không chỉ được học lý thuyết mà còn được tự tay triển khai dự án thực tế trên AWS Cloud. Việc được giao nhiệm vụ cụ thể trong nhóm — đặc biệt là vai trò thiết kế kiến trúc mà tôi đảm nhận — giúp tôi có trách nhiệm thực sự với sản phẩm của mình, không chỉ đơn thuần hoàn thành bài tập.
+Chương trình FCAJ tạo ra một môi trường học tập cởi mở và thực chiến, nơi các học viên không chỉ được học lý thuyết mà còn được tự tay triển khai dự án thực tế trên AWS Cloud. Việc được giao nhiệm vụ cụ thể trong nhóm — đặc biệt là vai trò thiết kế kiến trúc mà tôi đảm nhận — giúp tôi có trách nhiệm thực sự với sản phẩm của mình.
 
 **2. Sự hỗ trợ từ Mentor & Ban tổ chức**
 
-Mentor của chương trình rất nhiệt tình và có kinh nghiệm thực chiến dày dặn. Tôi đặc biệt đánh giá cao việc Mentor không đưa đáp án ngay mà khuyến khích tôi tự tìm hiểu và thử nghiệm — điều này giúp tôi học sâu hơn nhiều so với việc chỉ nghe giảng. Ban tổ chức hỗ trợ logistics và thủ tục nhanh chóng, tạo điều kiện để học viên tập trung vào kỹ thuật.
+Mentor của chương trình rất nhiệt tình và có kinh nghiệm thực chiến dày dặn. Tôi đặc biệt đánh giá cao việc Mentor không đưa đáp án ngay mà khuyến khích tôi tự tìm hiểu và thử nghiệm — điều này giúp tôi học sâu hơn nhiều so với việc chỉ nghe giảng.
 
 **3. Sự phù hợp với chuyên ngành**
 
-Là sinh viên Khoa học máy tính, nội dung chương trình hoàn toàn phù hợp và bổ sung trực tiếp cho kiến thức đã học. Các dịch vụ như SageMaker, Lambda, EventBridge đều là công nghệ thực tiễn đang được dùng rộng rãi trong ngành, không phải kiến thức hàn lâm xa vời.
+Là sinh viên Khoa học máy tính, nội dung chương trình hoàn toàn phù hợp và bổ sung trực tiếp cho kiến thức đã học. Các dịch vụ như SageMaker, Lambda, EventBridge đều là công nghệ thực tiễn đang được dùng rộng rãi trong ngành.
 
 **4. Cơ hội phát triển kỹ năng**
 
-8 tuần là khoảng thời gian đủ để xây dựng được một dự án có chiều sâu từ A-Z. Tôi đã nâng cao được kỹ năng thiết kế kiến trúc Cloud, tư duy hệ thống, và lần đầu tiên tự tay viết và xuất bản tài liệu kỹ thuật song ngữ trên website — đây là kinh nghiệm thực tế mà chương trình đại học không thể cung cấp.
+8 tuần là khoảng thời gian đủ để xây dựng được một dự án có chiều sâu từ A-Z. Tôi đã nâng cao được kỹ năng thiết kế kiến trúc Cloud và lần đầu tiên tự tay viết, xuất bản tài liệu kỹ thuật song ngữ trên website.
 
 **5. Tinh thần đồng đội**
 
-Làm việc trong một nhóm nhỏ với phân công vai trò rõ ràng giúp tôi hiểu sâu hơn về **collaboration trong dự án kỹ thuật thực tế**: tầm quan trọng của việc đặt tên tài nguyên nhất quán, chia sẻ tài liệu kịp thời, và review lẫn nhau trước khi commit.
+Làm việc trong một nhóm nhỏ với phân công vai trò rõ ràng giúp tôi hiểu sâu hơn về collaboration trong dự án kỹ thuật thực tế: tầm quan trọng của việc đặt tên tài nguyên nhất quán, chia sẻ tài liệu kịp thời, và review lẫn nhau.
 
 ---
 
 ### Điều tôi hài lòng nhất
 
-Điều tôi hài lòng nhất là kết thúc chương trình với một **website báo cáo hoàn chỉnh** và một bộ **sơ đồ kiến trúc chuyên nghiệp** mà tôi tự hào có thể đưa vào portfolio cá nhân. Chương trình không chỉ dạy kỹ thuật mà còn dạy cách làm việc có trách nhiệm và chuyên nghiệp.
+Điều tôi hài lòng nhất là kết thúc chương trình với một **website báo cáo hoàn chỉnh** và một bộ **sơ đồ kiến trúc chuyên nghiệp** mà tôi tự hào có thể đưa vào portfolio cá nhân.
 
 ---
 
 ### Đề xuất cải thiện
 
-* **Tăng số buổi workshop thực hành trực tiếp**: Một số khái niệm phức tạp (như SageMaker Pipeline, EventBridge Event Patterns) sẽ dễ nắm hơn nếu có buổi live demo kèm theo.
-* **Tài liệu hướng dẫn rõ ràng hơn từ đầu**: Cung cấp danh sách rõ ràng các dịch vụ AWS sẽ dùng trong dự án ngay từ tuần 1 để học viên có thể định hướng tự học sớm hơn.
-* **Thêm cơ hội networking**: Tổ chức thêm các buổi giao lưu giữa các nhóm khác nhau để học viên chia sẻ kinh nghiệm và giải pháp đa dạng hơn.
-* **Chứng chỉ hoàn thành chương trình**: Một chứng chỉ hoàn thành chương trình FCAJ Bootcamp sẽ là tài sản có giá trị trong hồ sơ xin việc của học viên.
+* **Tăng số buổi workshop thực hành trực tiếp**: Các khái niệm phức tạp (SageMaker Pipeline, EventBridge) sẽ dễ nắm hơn nếu có buổi live demo.
+* **Tài liệu hướng dẫn rõ ràng hơn từ đầu**: Cung cấp danh sách rõ ràng các dịch vụ AWS sẽ dùng trong dự án ngay từ tuần 1.
+* **Thêm cơ hội networking**: Tổ chức thêm các buổi giao lưu giữa các nhóm khác nhau.
+* **Chứng chỉ hoàn thành chương trình**: Một chứng chỉ hoàn thành FCAJ Bootcamp sẽ là tài sản có giá trị trong hồ sơ xin việc.
 
 ---
 
