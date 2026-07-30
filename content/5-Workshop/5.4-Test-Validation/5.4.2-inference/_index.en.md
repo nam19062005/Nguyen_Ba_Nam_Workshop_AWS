@@ -1,4 +1,4 @@
----
+﻿---
 title : "Test Real-time Inference Flow"
 date : 2026-07-29
 weight : 2
@@ -45,12 +45,12 @@ curl.exe -X POST https://c6kbjaktj9.execute-api.ap-southeast-1.amazonaws.com/pre
 #### 3. Analyze Returned Results (API Response)
 Successful result (HTTP 200 OK):
 
-![inference](../../../../static/images/5-Workshop/5.4-Test-Validation/inference.png)
+![inference](/images/5-Workshop/5.4-Test-Validation/inference.png)
 
 
 #### 4. Inspect Logs & Metrics on Amazon CloudWatch
 - Access CloudWatch $\rightarrow$ Log groups $\rightarrow$ open logs for /aws/lambda/telco-churn-api-handler
-   ![api-logs](../../../../static/images/5-Workshop/5.4-Test-Validation/api-logs.png)
+   ![api-logs](/images/5-Workshop/5.4-Test-Validation/api-logs.png)
 - Init Duration: 442.40 ms: 
   - This is the execution environment initialization time (Cold Start) for the first time Lambda runs
 - Duration: 6746.15 ms (Billed Duration: 7189 ms):

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tổng quan (Overview)"
 date: 2026-07-27
 weight: 1
@@ -33,7 +33,7 @@ Sau khi hoàn thành bài lab này, bạn sẽ nắm vững và triển khai đ�
 
 ##  Sơ đồ Kiến trúc Hệ thống (Architecture Diagram)
 
-![Sơ đồ Kiến trúc MLOps AWS](../../../static/images/5-Workshop/5.1-Workshop-overview/architecture.png)
+![Sơ đồ Kiến trúc MLOps AWS](/images/5-Workshop/5.1-Workshop-overview/architecture.png)
 
 ### Các Dịch vụ AWS Sử Dụng:
 - **Amazon S3:** Lưu trữ Dữ liệu thô, Dữ liệu đã xử lý  và Model Artifacts.

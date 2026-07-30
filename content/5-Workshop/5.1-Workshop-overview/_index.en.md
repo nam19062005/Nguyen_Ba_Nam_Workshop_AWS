@@ -1,4 +1,4 @@
----
+﻿---
 title: "Overview"
 date: 2026-07-27
 weight: 1
@@ -33,7 +33,7 @@ After completing this lab, you will master and deploy:
 
 ## System Architecture Diagram
 
-![AWS MLOps Architecture Diagram](../../../static/images/5-Workshop/5.1-Workshop-overview/architecture.png)
+![AWS MLOps Architecture Diagram](/images/5-Workshop/5.1-Workshop-overview/architecture.png)
 
 ### AWS Services Used:
 - **Amazon S3:** Stores raw data, processed data, and Model Artifacts.

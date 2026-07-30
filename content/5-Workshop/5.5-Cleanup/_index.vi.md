@@ -1,4 +1,4 @@
----
+﻿---
 title : "Dọn dẹp tài nguyên"
 date : 2026-07-29
 weight : 5
@@ -10,12 +10,12 @@ pre : " <b> 5.5. </b> "
 
 #### Xóa SageMaker Serverless Endpoint & Configurations
 - Truy cập Amazon SageMaker Studio $\rightarrow$ Deployments $\rightarrow$ Endpoints: Chọn telco-churn-serverless-endpoint $\rightarrow$ Delete.
-![clean-server](../../../static/images/5-Workshop/5.4-Test-Validation/clean-server.png)
+![clean-server](/images/5-Workshop/5.4-Test-Validation/clean-server.png)
 - Chọn JumpStart / Models: Chọn TelcoChurnModelGroup $\rightarrow$ Delete.
-![clean-group](../../../static/images/5-Workshop/5.4-Test-Validation/clean-group.png)
+![clean-group](/images/5-Workshop/5.4-Test-Validation/clean-group.png)
 
 #### Xóa SageMaker Pipeline
 - Trong SageMaker Console, mở mục Pipelines.
 - Chọn TelcoChurnPipeline (hoặc tên Pipeline của bạn).
 - Bấm Delete và xác nhận xóa Pipeline.
-![clean-pipeline](../../../static/images/5-Workshop/5.4-Test-Validation/clean-pipeline.png)
+![clean-pipeline](/images/5-Workshop/5.4-Test-Validation/clean-pipeline.png)

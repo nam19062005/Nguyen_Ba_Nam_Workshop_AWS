@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Tuần 8"
 date: 2026-08-03
 weight: 8
@@ -17,7 +17,7 @@ pre: " <b> 1.8. </b> "
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
 | 2 | - Rà soát toàn bộ website Hugo: Kiểm tra từng trang nội dung, đảm bảo ảnh sơ đồ hiển thị đúng, không lỗi đường dẫn <br> - Kiểm tra giao diện trên mobile và desktop (responsive design) <br> - Sửa các lỗi định dạng Markdown phát hiện trong quá trình rà soát | 03/08/2026 | 03/08/2026 | Website Hugo |
-| 3 | - **Xuất bản phiên bản cuối** của sơ đồ kiến trúc tổng thể v1.2 lên `static/images/` <br> - Cập nhật sơ đồ vào tất cả các trang Workshop liên quan <br> - Thêm chú thích (caption) mô tả cho từng ảnh sơ đồ | 04/08/2026 | 04/08/2026 | Hugo Static Files |
+| 3 | - **Xuất bản phiên bản cuối** của sơ đồ kiến trúc tổng thể v1.2 lên `/images/` <br> - Cập nhật sơ đồ vào tất cả các trang Workshop liên quan <br> - Thêm chú thích (caption) mô tả cho từng ảnh sơ đồ | 04/08/2026 | 04/08/2026 | Hugo Static Files |
 | 4 | - Hoàn thiện phần **1-Worklog** (Tiếng Việt và Tiếng Anh): Điền đủ thông tin 8 tuần <br> - Hoàn thiện phần **6-Self-evaluation**: Tự đánh giá kỹ năng trước/sau chương trình <br> - Hoàn thiện phần **7-Feedback**: Góp ý về chương trình FCAJ | 05/08/2026 | 05/08/2026 | Workshop Template |
 | 5 | - **Nghiệm thu báo cáo** với Mentor: Trình bày toàn bộ website và giải thích sơ đồ kiến trúc chi tiết <br> - Tiếp thu feedback cuối cùng và thực hiện chỉnh sửa (nếu có) <br> - Ghi nhận các điểm cần cải thiện cho các dự án tiếp theo | 06/08/2026 | 06/08/2026 | Nghiệm thu Mentor |
 | 6 | - Hỗ trợ nhóm thực hiện **Clean-up toàn bộ tài nguyên AWS** theo thứ tự trong sơ đồ Cleanup: <br>&emsp; + Xóa SageMaker Endpoint → Model → Endpoint Config → Pipeline <br>&emsp; + Xóa Lambda Functions, EventBridge Rules, SNS Topic <br>&emsp; + Xóa S3 Buckets (làm rỗng trước) → Xóa IAM Roles <br> - Xác nhận tài khoản AWS không còn tài nguyên tốn phí | 07/08/2026 | 07/08/2026 | Cleanup Guide |
