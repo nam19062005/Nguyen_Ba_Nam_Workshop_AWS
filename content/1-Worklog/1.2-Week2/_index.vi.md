@@ -1,6 +1,6 @@
 ---
-title: "Worklog Tuần 2"
-date: 2026-06-22
+title: "Tuần 2: Networking (VPC), Storage (S3) & Identity (IAM)"
+date: 2026-06-15
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
@@ -8,23 +8,20 @@ pre: " <b> 1.2. </b> "
 
 ### Mục tiêu tuần 2:
 
-* Cập nhật kiến trúc hệ thống v0.2 dựa trên feedback tuần 1, bổ sung chi tiết các luồng xử lý.
-* Tìm hiểu sâu về **Amazon SageMaker** (Studio, Processing Jobs, Training Jobs, Model Registry) — nền tảng cốt lõi của hệ thống.
-* Hỗ trợ nhóm trong việc soạn thảo **Proposal** dự án: Cung cấp sơ đồ kiến trúc và mô tả kỹ thuật từng thành phần.
+* Thiết kế và tự dựng mạng ảo bảo mật (Custom VPC) tích hợp lưu trữ đối tượng (S3) và phân quyền bảo mật (IAM).
+
+### Kết quả đạt được tuần 2:
+
+* Xây dựng mô hình VPC hoàn chỉnh gồm Public/Private Subnet, IGW và NAT Gateway.
+* Cấu hình S3 Static Website Hosting và hiểu cách quản lý lưu trữ dữ liệu.
+* Nắm vững nguyên tắc "Least Privilege" qua IAM Roles/Policies và cấu hình VPC Endpoints an toàn.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --- | --- | --- | --- |
-| 2 | - Nghiên cứu tài liệu Amazon SageMaker: Studio, Processing, Training, HPO Jobs <br> - Tìm hiểu khái niệm SageMaker Pipelines (DAG workflow) và Model Registry <br> - Cập nhật sơ đồ kiến trúc: Vẽ chi tiết luồng **SageMaker Pipeline** (ProcessStep → TuningStep → EvalStep → ConditionStep) | 22/06/2026 | 22/06/2026 | AWS SageMaker Documentation |
-| 3 | - Tìm hiểu cơ chế hoạt động của **S3 Event Notifications** và **AWS Lambda** <br> - Nghiên cứu **Amazon EventBridge** (Rules, Event Patterns, Targets) <br> - Bổ sung vào kiến trúc: Luồng tự động hóa **S3 Event → Lambda Drift Checker → Pipeline Trigger** | 23/06/2026 | 23/06/2026 | AWS Event-Driven Architecture Guide |
-| 4 | - Vẽ chi tiết luồng **Continuous Deployment**: EventBridge bắt sự kiện Model Approved → Lambda Auto Deployer → SageMaker Serverless Endpoint <br> - Nghiên cứu **SageMaker Serverless Inference** và so sánh với Real-time Provisioned Endpoint | 24/06/2026 | 24/06/2026 | SageMaker Serverless Docs |
-| 5 | - **Chuẩn hóa sơ đồ kiến trúc v0.2:** Áp dụng AWS Architecture Icons chính thức, phân chia rõ các layer theo màu sắc (Data/ML/Automation/Serving/Monitoring) <br> - Xuất sơ đồ sang định dạng PNG để đưa vào tài liệu Proposal của nhóm | 25/06/2026 | 25/06/2026 | draw.io / AWS Icon Pack |
-| 6 | - Họp nhóm: Trình bày kiến trúc v0.2 và phối hợp với thành viên viết code để xác nhận tên tài nguyên, region và IAM roles <br> - Bổ sung phần mô tả kỹ thuật từng thành phần AWS vào tài liệu Proposal | 26/06/2026 | 26/06/2026 | Họp nhóm |
-
-### Kết quả đạt được tuần 2:
-
-* Hoàn thiện **sơ đồ kiến trúc hệ thống v0.2** chi tiết với 5 layer rõ ràng, sử dụng AWS Official Icons.
-* Hiểu rõ cơ chế tích hợp giữa SageMaker Pipeline, Lambda, EventBridge và S3 Events — nền tảng để vẽ kiến trúc chính xác.
-* Đóng góp sơ đồ kiến trúc và mô tả kỹ thuật vào tài liệu **Proposal** của nhóm, phục vụ trình bày với Mentor.
-* Xác nhận được tên tài nguyên và cấu hình kỹ thuật nhất quán với phần code của thành viên khác trong nhóm.
+| :--- | :--- | :---: | :---: | :--- |
+| **2** | - Tìm hiểu chuyên sâu Amazon S3:<br>  + S3 Storage Classes (Standard, IA, Glacier)<br>  + Bucket Policies, Lifecycle Rules, Versioning<br>- **Thực hành**: Tạo Bucket, upload file qua Console & CLI, cấu hình Static Website Hosting | 15/06/2026 | 15/06/2026 | [Amazon S3 User Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) |
+| **3** | - Tìm hiểu IAM Chuyên sâu:<br>  + IAM Roles, Policies (JSON structure), Groups<br>  + Principle of Least Privilege<br>- **Thực hành**: Tạo Role cho EC2 truy cập S3 không cần hardcode credentials | 16/06/2026 | 16/06/2026 | [AWS IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) |
+| **4** | - Khái niệm VPC cơ bản:<br>  + Subnet (Public/Private), CIDR blocks, Route Tables<br>  + Internet Gateway (IGW), NAT Gateway<br>- **Thực hành**: Tự dựng Custom VPC với 1 Public Subnet và 1 Private Subnet | 17/06/2026 | 17/06/2026 | [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html) |
+| **5** | - Nâng cao VPC:<br>  + Security Groups vs Network ACLs (NACLs)<br>  + VPC Endpoints (Gateway vs Interface)<br>- **Thực hành**: Config EC2 trong Private Subnet kết nối S3 qua VPC Endpoint | 18/06/2026 | 18/06/2026 | [Amazon VPC Endpoints](https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints.html) |
+| **6** | - Tổng kết và thực hành Lab kết hợp VPC + EC2 + S3 + IAM<br>- Viết note tổng hợp kiến thức Networking & Security | 19/06/2026 | 19/06/2026 | [AWS Architecture Center](https://aws.amazon.com/architecture/) |

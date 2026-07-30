@@ -1,6 +1,6 @@
 ---
-title: "Worklog Tuần 7"
-date: 2026-07-27
+title: "Tuần 7: Code Lambda, API Gateway & Integration Testing"
+date: 2026-07-20
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -8,23 +8,21 @@ pre: " <b> 1.7. </b> "
 
 ### Mục tiêu tuần 7:
 
-* Hỗ trợ nhóm kiểm thử End-to-End hệ thống: **Đối chiếu luồng thực tế với sơ đồ kiến trúc** và điều chỉnh nếu có sai lệch.
-* Tìm hiểu **AWS Well-Architected Framework** để đánh giá kiến trúc theo 5 trụ cột.
-* Hoàn thiện tài liệu Workshop phần **5.4-Test-Validation** và **5.5-Cleanup** với sơ đồ minh họa.
+* Public dự án ML thành một Web Service thông qua Serverless Endpoints và tiến hành kiểm thử tích hợp (End-to-End Testing).
+
+### Kết quả đạt được tuần 7:
+
+* Deploy SageMaker Endpoint nhận dự đoán real-time thành công.
+* Viết Lambda Function bridge dữ liệu từ API Gateway tới SageMaker.
+* Hệ thống hoàn thành kiểm thử End-to-End, hoạt động ổn định và xử lý lỗi tốt.
+* Giao lưu và chia sẻ kết quả bước đầu tại FCAJ Meetup 25/07/2026.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --- | --- | --- | --- |
-| 2 | - Theo dõi nhóm chạy kiểm thử End-to-End **Kịch bản 1** (Auto-Retrain): Upload CSV mới → Lambda kích hoạt → SageMaker Pipeline chạy → Email SNS <br> - **Đối chiếu luồng thực tế với sơ đồ:** Xác nhận các bước và tên tài nguyên khớp 100% với kiến trúc đã vẽ | 27/07/2026 | 27/07/2026 | AWS Console Observation |
-| 3 | - Theo dõi nhóm chạy kiểm thử End-to-End **Kịch bản 2** (Real-time Inference): Gửi request API → Lambda Handler → SageMaker Endpoint → Nhận kết quả JSON <br> - Ghi nhận kết quả test (latency, accuracy) để bổ sung vào **Validation Matrix** trong tài liệu | 28/07/2026 | 28/07/2026 | AWS Console Observation |
-| 4 | - Nghiên cứu **AWS Well-Architected Framework** (5 trụ cột) <br> - Tự đánh giá kiến trúc nhóm theo từng trụ cột: Security, Reliability, Performance, Cost, Operations <br> - Soạn thảo phần **Architecture Review** vào tài liệu Workshop Overview | 29/07/2026 | 29/07/2026 | AWS Well-Architected Tool |
-| 5 | - Hoàn thiện nội dung trang **5.4-Test-Validation**: <br>&emsp; + Bảng kết quả Validation Matrix (Pass/Fail từng test case) <br>&emsp; + Chú thích kết quả mong đợi vs thực tế <br> - Soạn thảo trang **5.5-Cleanup**: Vẽ sơ đồ các tài nguyên cần xóa theo thứ tự để tránh dependency error | 30/07/2026 | 30/07/2026 | Workshop Template |
-| 6 | - **Final review tổng thể** cùng nhóm: <br>&emsp; + Kiểm tra tất cả liên kết ảnh và sơ đồ kiến trúc hiển thị đúng trên website Hugo <br>&emsp; + Xác nhận toàn bộ nội dung song ngữ (VI/EN) đầy đủ và nhất quán | 31/07/2026 | 31/07/2026 | Website Hugo |
-
-### Kết quả đạt được tuần 7:
-
-* Xác nhận **sơ đồ kiến trúc khớp 100% với hệ thống thực tế** sau khi đối chiếu trong buổi kiểm thử End-to-End.
-* Hoàn thiện nội dung trang **5.4-Test-Validation** với bảng Validation Matrix đầy đủ, minh họa bằng ảnh kết quả thực tế.
-* Hoàn thiện trang **5.5-Cleanup** với sơ đồ thứ tự xóa tài nguyên rõ ràng, tránh lỗi dependency.
-* Bổ sung phần **Architecture Review theo AWS Well-Architected Framework** vào tài liệu Workshop — điểm cộng chuyên nghiệp của báo cáo nhóm.
+| :--- | :--- | :---: | :---: | :--- |
+| **2** | - Deploy Model từ SageMaker Model Registry ra Endpoint (Real-time Inference Serverless/Real-time) | 20/07/2026 | 20/07/2026 | [Amazon SageMaker Endpoints](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-real-time.html) |
+| **3** | - Viết AWS Lambda Function (Python) sử dụng `boto3` để nhận dữ liệu client, invoke SageMaker Endpoint và trả kết quả | 21/07/2026 | 21/07/2026 | [Boto3 SageMaker Runtime](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sagemaker-runtime.html) |
+| **4** | - Cấu hình API Gateway kết nối với Lambda Function, cài đặt CORS và Request Validation | 22/07/2026 | 22/07/2026 | [AWS API Gateway Lambda Integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html) |
+| **5** | - Viết test script tự động hóa Postman/Python test API Endpoint | 23/07/2026 | 23/07/2026 | [Postman API Testing](https://learning.postman.com/docs/sending-requests/requests/) |
+| **6** | - **Cùng nhóm code Lambda + API Gateway + Test** (Lịch nhóm 24/07)<br>  + Kiểm thử toàn bộ hệ thống (End-to-End Testing)<br>  + Tối ưu hóa latency và xử lý lỗi (Error Handling) | 24/07/2026 | 24/07/2026 | |

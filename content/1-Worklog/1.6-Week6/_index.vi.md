@@ -1,6 +1,6 @@
 ---
-title: "Worklog Tuần 6"
-date: 2026-07-20
+title: "Tuần 6: Xây dựng SageMaker Pipeline"
+date: 2026-07-13
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
@@ -8,26 +8,20 @@ pre: " <b> 1.6. </b> "
 
 ### Mục tiêu tuần 6:
 
-* Tìm hiểu sâu về **Amazon API Gateway**, **CloudWatch Monitoring** và **SNS Alerting** — các thành phần Serving và Monitoring trong kiến trúc.
-* **Vẽ sơ đồ luồng Real-time Inference API** chi tiết và sơ đồ Monitoring/Alerting.
-* Hoàn thiện toàn bộ tài liệu mô tả kiến trúc (Tiếng Việt) cho tất cả các bước trong Workshop.
+* Lập trình tự động hóa toàn bộ quy trình từ tiền xử lý dữ liệu, huấn luyện đến lưu trữ mô hình bằng SageMaker Pipelines.
+
+### Kết quả đạt được tuần 6:
+
+* Các script tiền xử lý (`preprocessing.py`), huấn luyện (`train.py`), đánh giá (`evaluate.py`) được mô-đun hóa chuẩn.
+* Triển khai thành công SageMaker Pipeline tự động end-to-end.
+* Đăng ký mô hình đạt chất lượng vào SageMaker Model Registry.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --- | --- | --- | --- |
-| 2 | - Nghiên cứu **Amazon API Gateway**: HTTP API vs REST API, Lambda Proxy Integration, Payload Format v2.0 <br> - Tìm hiểu CORS Configuration và cách bảo mật API với Throttling <br> - Vẽ sơ đồ chi tiết **Real-time Inference Flow**: Client → API Gateway (POST /predict) → Lambda Handler → SageMaker Endpoint → Response JSON | 20/07/2026 | 20/07/2026 | API Gateway Developer Guide |
-| 3 | - Nghiên cứu **Amazon CloudWatch**: Metrics, Alarms, Log Groups, Metric Filters <br> - Tìm hiểu sự khác biệt giữa Monitoring (CloudWatch), Logging (CloudWatch Logs) và Tracing (X-Ray) <br> - Vẽ sơ đồ **Monitoring & Alerting**: CloudWatch Alarm (5XX Errors) → SNS → Email | 21/07/2026 | 21/07/2026 | CloudWatch User Guide |
-| 4 | - **Cập nhật sơ đồ kiến trúc tổng thể v1.2:** Bổ sung Serving Layer (API Gateway + Lambda Handler) và hoàn thiện Monitoring Layer <br> - Đảm bảo sơ đồ thể hiện đầy đủ 5 layers: Data / ML Pipeline / Automation / Serving / Monitoring | 22/07/2026 | 22/07/2026 | draw.io |
-| 5 | - Hoàn thiện mô tả kiến trúc Tiếng Việt cho tất cả các trang Workshop: <br>&emsp; + 5.1: Overview & Architecture <br>&emsp; + 5.3: Implementation Steps (7 bước) <br>&emsp; + 5.4: Test & Validation | 23/07/2026 | 23/07/2026 | Workshop Template |
-| 6 | - Dịch toàn bộ mô tả kiến trúc sang **Tiếng Anh** để hoàn thiện yêu cầu song ngữ <br> - Review cùng nhóm để đảm bảo thuật ngữ kỹ thuật chính xác và nhất quán giữa 2 ngôn ngữ | 24/07/2026 | 24/07/2026 | Họp nhóm |
-
-### Kết quả đạt được tuần 6:
-
-* Hoàn thiện **sơ đồ kiến trúc tổng thể v1.2** — phiên bản cuối cùng với đầy đủ 5 layers, sẵn sàng dùng trong báo cáo:
-  * **Data Layer:** S3 Data Lake với cấu trúc `raw/`, `processed/`, `models/`.
-  * **ML Pipeline Layer:** SageMaker Pipeline 4 bước (Process → HPO → Eval → Condition).
-  * **Automation Layer:** Lambda + EventBridge + S3 Trigger (Auto-Retrain & CD Flow).
-  * **Serving Layer:** API Gateway + Lambda Handler + SageMaker Serverless Endpoint.
-  * **Monitoring Layer:** CloudWatch Alarms + SNS + Email Notifications.
-* Hoàn thành **bộ mô tả kiến trúc song ngữ (Việt-Anh)** cho tất cả các trang Workshop.
+| :--- | :--- | :---: | :---: | :--- |
+| **2** | - Tìm hiểu SageMaker Pipelines SDK:<br>  + ProcessingStep, TrainingStep, ModelEvaluationStep | 13/07/2026 | 13/07/2026 | [Amazon SageMaker Pipelines SDK](https://docs.aws.amazon.com/sagemaker/latest/dg/pipelines-sdk.html) |
+| **3** | - Viết script `preprocessing.py` và `train.py` chuẩn hóa cho SageMaker Estimator | 14/07/2026 | 14/07/2026 | [SageMaker Python SDK](https://sagemaker.readthedocs.io/) |
+| **4** | - Thử nghiệm chạy độc lập từng Step trong SageMaker Studio | 15/07/2026 | 15/07/2026 | |
+| **5** | - Viết script đánh giá Model (`evaluate.py`) và thiết lập Điều kiện đăng ký mô hình (ConditionStep) | 16/07/2026 | 16/07/2026 | [SageMaker Model Registry](https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry.html) |
+| **6** | - **Cùng nhóm build SageMaker Pipeline** (Lịch nhóm 17/07)<br>  + Tích hợp hoàn chỉnh Pipeline hoàn chỉnh từ Data -> Train -> Register Model<br>  + Chạy thử nghiệm Pipeline end-to-end | 17/07/2026 | 17/07/2026 | [SageMaker MLOps Automation](https://aws.amazon.com/blogs/machine-learning/build-mlops-workflows-with-amazon-sagemaker-pipelines/) |

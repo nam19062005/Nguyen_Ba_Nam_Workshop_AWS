@@ -1,6 +1,6 @@
-﻿---
-title: "Week 1 Worklog"
-date: 2026-06-15
+---
+title: "Week 1: AWS Overview & Kick-off"
+date: 2026-06-08
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
@@ -8,28 +8,20 @@ pre: " <b> 1.1. </b> "
 
 ### Week 1 Objectives:
 
-* Participate in onboarding, get acquainted with group members and understand the FCAJ program workflow.
-* Learn the fundamentals of AWS Cloud and essential services (IAM, S3, EC2, VPC).
-* Survey the group's problem: **Automated MLOps Platform for Telco Customer Churn Prediction**.
-* Begin researching and **drafting the overall system architecture diagram** for the group project.
+* Complete onboarding procedures, understand AWS global infrastructure, and master launching/managing EC2 servers.
+
+### Week 1 Achievements:
+
+* Gained an overall understanding of cloud computing and the Shared Responsibility Model.
+* Successfully set up an AWS Free Tier account and configured IAM User/AWS CLI.
+* Launched, SSHed, and configured a basic Web Server on an EC2 instance.
 
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
-| --- | --- | --- | --- | --- |
-| 2 | - Join FCAJ Onboarding session <br> - Learn program rules, workflow, and communication tools (Slack, Notion) <br> - Assign team roles: **Received task of designing the system architecture** | 15/06/2026 | 15/06/2026 | FCAJ Internship Guidelines |
-| 3 | - Learn AWS Cloud overview: IaaS/PaaS/SaaS deployment models <br> - Study foundational services: IAM, S3, EC2, VPC, Security Groups <br> - Install AWS CLI v2, configure `aws configure` with Region `ap-southeast-1` | 16/06/2026 | 16/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Read technical documentation for the group's Telco Customer Churn problem <br> - Research AWS components to be used: S3, SageMaker, Lambda, EventBridge, API Gateway, SNS, CloudWatch <br> - **Start drafting the system architecture** using draw.io (first draft v0.1) | 17/06/2026 | 17/06/2026 | AWS Architecture Center |
-| 5 | - Research official **AWS Architecture Icons** <br> - Reference MLOps Event-Driven architecture patterns from AWS Blog <br> - Complete draft architecture v0.1: Separate Data Flow and Event Flow lanes | 18/06/2026 | 18/06/2026 | AWS Architecture Blog |
-| 6 | - Present draft architecture v0.1 to Mentor and team members for feedback <br> - Record suggestions: add Monitoring flow, clearly separate Auto-Retrain and API Inference flows | 19/06/2026 | 19/06/2026 | Team Feedback |
-
-### Week 1 Achievements:
-
-* Understood team structure, role assignments, and the 8-week project roadmap.
-* Completed **system architecture draft v0.1** with main components:
-  * **Data Layer:** S3 Data Lake (`raw/`, `processed/`, `models/`)
-  * **Processing Layer:** SageMaker Processing → Training (HPO) → Evaluation → Model Registry
-  * **Automation Layer:** S3 Event → Lambda → EventBridge → Auto Deploy
-  * **Serving Layer:** API Gateway → Lambda → SageMaker Endpoint
-  * **Monitoring Layer:** CloudWatch → SNS → Email
-* Received feedback from Mentor and identified revision directions for Week 2.
+| :--- | :--- | :---: | :---: | :--- |
+| **2** | - Meet the admin team and FCAJ members<br>- Read and understand the rules and regulations at the internship unit | 08/06/2026 | 08/06/2026 | FCAJ Internship Guidelines |
+| **3** | - Learn AWS Cloud overview:<br>  + Region, AZ, Edge Location<br>  + Shared Responsibility Model<br>  + Service groups: Compute, Storage, Database, Networking, Security, Analytics, ML | 09/06/2026 | 09/06/2026 | [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) |
+| **4** | - Create AWS Free Tier account<br>- Get familiar with AWS Management Console<br>- Install and configure AWS CLI<br>- **Hands-on**: create IAM User, configure Access Key, run basic CLI commands | 10/06/2026 | 10/06/2026 | [AWS CLI User Guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) |
+| **5** | - Learn about EC2:<br>  + Instance types (t, m, c, r, i families)<br>  + AMI, EBS volumes, Key Pairs<br>  + Basic Security Groups<br>  + Methods to SSH into EC2<br>- **Hands-on**: launch EC2, SSH, install Apache | 11/06/2026 | 11/06/2026 | [AWS EC2 User Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html) |
+| **6** | - **Additional EC2 Hands-on**: test Security Group rules, snapshot EBS volumes<br>- Review EC2 knowledge from Week 1 | 12/06/2026 | 12/06/2026 | [Amazon EBS User Guide](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-managing-volume.html) |
