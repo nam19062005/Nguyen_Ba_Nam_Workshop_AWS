@@ -23,5 +23,5 @@ pre: " <b> 1.8. </b> "
 | **2** | - Thu thập số liệu, benchmark performance và chi phí dịch vụ AWS đã sử dụng trong dự án | 27/07/2026 | 27/07/2026 | [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) |
 | **3** | - **Cùng nhóm viết Blog 1** (Lịch nhóm 28/07)<br>  + Chủ đề: Kiến trúc MLOps & Quy trình xây dựng SageMaker Pipeline | 28/07/2026 | 28/07/2026 | [AWS Blogs](https://aws.amazon.com/blogs/aws/) |
 | **4** | - **Cùng nhóm viết Blog 2** (Lịch nhóm 29/07)<br>  + Chủ đề: Serverless Inference với Lambda, API Gateway & Bài học kinh nghiệm MLOps | 29/07/2026 | 29/07/2026 | [AWS Blogs](https://aws.amazon.com/blogs/aws/) |
-| **5** | - Review hoàn thiện 2 bài Blog, chuẩn bị xuất bản<br>- Đóng và dọn dẹp các tài nguyên không dùng trên AWS để tránh phát sinh chi phí | 30/07/2026 | 30/07/2026 | [AWS Resource Groups](https://docs.aws.amazon.com/ARG/latest/userguide/welcome.html) |
-| **6** | - Tổng kết kỳ thực tập, hoàn thiện Worklog Final (08/06 - 31/07/2026) | 31/07/2026 | 31/07/2026 | |
+| **5** | - Hoàn thiện 2 bài blog và đăng bài<br>- Đóng và dọn dẹp các tài nguyên không dùng trên AWS để tránh phát sinh chi phí | 30/07/2026 | 30/07/2026 | [AWS Resource Groups](https://docs.aws.amazon.com/ARG/latest/userguide/welcome.html) |
+| **6** | - Hoàn thành báo cáo và nộp bài | 31/07/2026 | 31/07/2026 | |
