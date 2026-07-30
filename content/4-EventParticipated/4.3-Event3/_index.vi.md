@@ -104,4 +104,5 @@ Tinh thần kết nối, lan tỏa giá trị công nghệ đến với cộng �
 
 ### Một Số Hình Ảnh Sự Kiện
 
-> *Hình ảnh minh chứng sẽ được cập nhật sau.*
+![AWS Study Group Meetup - Hackathon Showcase](/images/event/event3.1.png)
+

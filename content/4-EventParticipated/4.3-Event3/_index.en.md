@@ -104,4 +104,5 @@ The spirit of connecting and spreading technological values to the community is 
 
 ### Event Photos
 
-> *Evidence photos will be updated later.*
+![AWS Study Group Meetup - Hackathon Showcase](/images/event/event3.1.png)
+

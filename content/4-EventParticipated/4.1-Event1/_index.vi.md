@@ -123,6 +123,7 @@ Sự phân biệt giữa **Kinh Nghiệm** (thời gian trải qua) và **Trải
 
 #### Hình Ảnh Sự Kiện
 
-> *Hình ảnh minh chứng sẽ được cập nhật sau.*
+![Swinburne Cloud Mastery](/images/event/event1.1.png)
+![Swinburne Cloud Mastery](/images/event/event1.2.jpg)
 
 > Nhìn chung, đây là một buổi sự kiện nhắc nhở mạnh mẽ rằng kỹ năng kỹ thuật là nền tảng, nhưng thành công sự nghiệp được xây dựng trên visibility, mối quan hệ, giao tiếp và tư duy chủ động. Bốn diễn giả — mỗi người một nền tảng khác nhau — đã cùng truyền đi một thông điệp nhất quán: trong kỷ nguyên AI, những con người chiến thắng là những người tò mò không ngừng, xây dựng kết nối thực chất, và không bao giờ ngừng phản tư về hành trình phát triển của mình.

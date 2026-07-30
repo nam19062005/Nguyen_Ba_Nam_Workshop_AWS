@@ -123,6 +123,7 @@ His distinction between **Experience** (time served) and **genuine Experience** 
 
 #### Event Photos
 
-> *Evidence photos will be updated later.*
+![Swinburne Cloud Mastery](/images/event/event1.1.png)
+![Swinburne Cloud Mastery](/images/event/event1.2.jpg)
 
 > Overall, this event was a powerful reminder that technical skills are the foundation, but career success is built on visibility, relationships, communication, and a proactive mindset. The four speakers collectively delivered a consistent message: in the age of AI, those who win are those who stay curious, build genuine connections, and never stop reflecting on how they grow.
