@@ -36,21 +36,12 @@ Working in a small team with clear role assignments helped me better understand 
 
 ### What I'm Most Satisfied With
 
-What I'm most satisfied with is completing the program with a **comprehensive report website** and a **professional architecture diagram set** that I'm proud to include in my personal portfolio. The program not only taught technical skills but also taught how to work responsibly and professionally.
+What I'm most satisfied with is completing the program with a **comprehensive report website** and a **professional architecture diagram set** that I'm proud to include in my personal profile. The program not only taught technical skills but also taught how to work responsibly and professionally.
 
 ---
 
 ### Suggestions for Improvement
 
-* **More hands-on workshop sessions**: Some complex concepts (like SageMaker Pipeline, EventBridge Event Patterns) would be easier to grasp with accompanying live demo sessions.
-* **Clearer guidance documentation from the start**: Providing a clear list of AWS services that will be used in the project from Week 1 so participants can self-study and orient earlier.
-* **More networking opportunities**: Organize additional exchange sessions between different teams so participants can share experiences and diverse solutions.
-* **Program Completion Certificate**: A FCAJ Bootcamp completion certificate would be a valuable asset in participants' job application portfolios.
+* **Increase practical sessions**
+* **Provide documents**
 
----
-
-### Advice for Next Season's Participants
-
-> *"Don't be afraid to draw the wrong architecture the first time — drawing it and then revising it is how you learn the most. Ask many questions, experiment a lot, and don't hesitate to share with your team when you don't understand something."*
-
-I would enthusiastically recommend this program to friends and younger students who want to enter the Cloud Computing field.

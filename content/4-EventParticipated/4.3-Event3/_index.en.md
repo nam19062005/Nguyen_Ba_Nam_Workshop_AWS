@@ -1,15 +1,15 @@
 ---
-title: "Event 3 - AWS Study Group Meetup (25/11/2026)"
-date: 2026-11-25
+title: "Event 3 - AWS Study Group Meetup (25/07/2026)"
+date: 2026-07-25
 weight: 3
 chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# Summary Report: AWS Study Group Meetup – November 2026
+# Summary Report: AWS Study Group Meetup – July 2026
 ## (FCAJ Community Day – AABW Hackathon Showcase)
 
-**Date:** November 25, 2026  
+**Date:** July 25, 2026  
 **Location:** Floor 26, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 **Format:** In-person community meetup (Showcase & Presentation)  
 **Organizer:** AWS Study Group Vietnam & FCAJ Community  

@@ -1,15 +1,15 @@
 ---
-title: "Event 3 - AWS Study Group Meetup (25/11/2026)"
-date: 2026-11-25
+title: "Event 3 - AWS Study Group Meetup (25/07/2026)"
+date: 2026-07-25
 weight: 3
 chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# Bài Thu Hoạch: AWS Study Group Meetup – Tháng 11/2026
+# Bài Thu Hoạch: AWS Study Group Meetup – Tháng 7/2026
 ## (FCAJ Community Day – AABW Hackathon Showcase)
 
-**Ngày tổ chức:** 25 tháng 11, 2026  
+**Ngày tổ chức:** 25 tháng 7, 2026  
 **Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, TP. Hồ Chí Minh  
 **Hình thức:** Meetup cộng đồng trực tiếp (Showcase & Chia sẻ)  
 **Tổ chức:** AWS Study Group Vietnam & Cộng đồng FCAJ  

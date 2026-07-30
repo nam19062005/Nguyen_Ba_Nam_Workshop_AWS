@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Chia sẻ & Đóng góp ý kiến"
 weight: 7
 chapter: false
@@ -35,21 +35,11 @@ Làm việc trong một nhóm nhỏ với phân công vai trò rõ ràng giúp t
 
 ### Điều tôi hài lòng nhất
 
-Điều tôi hài lòng nhất là kết thúc chương trình với một **website báo cáo hoàn chỉnh** và một bộ **sơ đồ kiến trúc chuyên nghiệp** mà tôi tự hào có thể đưa vào portfolio cá nhân.
+Điều tôi hài lòng nhất là kết thúc chương trình với một **website báo cáo hoàn chỉnh** và một bộ **sơ đồ kiến trúc chuyên nghiệp** mà tôi tự hào có thể đưa vào profile cá nhân.
 
 ---
 
 ### Đề xuất cải thiện
 
-* **Tăng số buổi workshop thực hành trực tiếp**: Các khái niệm phức tạp (SageMaker Pipeline, EventBridge) sẽ dễ nắm hơn nếu có buổi live demo.
-* **Tài liệu hướng dẫn rõ ràng hơn từ đầu**: Cung cấp danh sách rõ ràng các dịch vụ AWS sẽ dùng trong dự án ngay từ tuần 1.
-* **Thêm cơ hội networking**: Tổ chức thêm các buổi giao lưu giữa các nhóm khác nhau.
-* **Chứng chỉ hoàn thành chương trình**: Một chứng chỉ hoàn thành FCAJ Bootcamp sẽ là tài sản có giá trị trong hồ sơ xin việc.
-
----
-
-### Lời khuyên cho các bạn tham gia mùa tiếp theo
-
-> *"Đừng sợ vẽ sai kiến trúc lần đầu — vẽ đi rồi sửa mới học được nhiều nhất. Hỏi nhiều, thử nhiều, và đừng ngại chia sẻ với nhóm khi không hiểu."*
-
-Tôi sẽ nhiệt tình giới thiệu chương trình này cho bạn bè và đàn em đang muốn bước vào lĩnh vực Cloud Computing.
+* **Tăng số buổi thực hành**
+* **Cung cấp tài liệu**
