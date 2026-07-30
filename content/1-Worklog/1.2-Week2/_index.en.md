@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 2 Worklog"
 date: 2026-06-22
 weight: 2
@@ -16,11 +16,11 @@ pre: " <b> 1.2. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Mon | - Study Amazon SageMaker: Studio, Processing, Training, HPO Jobs <br> - Learn about SageMaker Pipelines (DAG workflow) and Model Registry <br> - Update architecture: Draw detail of **SageMaker Pipeline** flow (ProcessStep → TuningStep → EvalStep → ConditionStep) | 22/06/2026 | 22/06/2026 | AWS SageMaker Documentation |
-| Tue | - Learn **S3 Event Notifications** mechanism and **AWS Lambda** <br> - Study **Amazon EventBridge** (Rules, Event Patterns, Targets) <br> - Add to architecture: Automation flow **S3 Event → Lambda DriftChecker → Pipeline Trigger** | 23/06/2026 | 23/06/2026 | AWS Event-Driven Architecture Guide |
-| Wed | - Draw detailed **Continuous Deployment (CD) Flow**: EventBridge catches `Model Approved` event → Lambda AutoDeployer → SageMaker Serverless Endpoint <br> - Research **SageMaker Serverless Inference** vs Real-time Provisioned Endpoint | 24/06/2026 | 24/06/2026 | SageMaker Serverless Docs |
-| Thu | - **Standardize architecture diagram v0.2:** Apply official AWS Architecture Icons, color-code each layer (Data/ML/Automation/Serving/Monitoring) <br> - Export diagram to PNG for inclusion in the team's Proposal document | 25/06/2026 | 25/06/2026 | draw.io / AWS Icon Pack |
-| Fri | - Team meeting: Present architecture v0.2 and coordinate with coding members to confirm resource names, region and IAM roles <br> - Add technical description of each AWS component to the Proposal document | 26/06/2026 | 26/06/2026 | Team Meeting |
+| 2 | - Study Amazon SageMaker: Studio, Processing, Training, HPO Jobs <br> - Learn about SageMaker Pipelines (DAG workflow) and Model Registry <br> - Update architecture: Draw detail of **SageMaker Pipeline** flow (ProcessStep → TuningStep → EvalStep → ConditionStep) | 22/06/2026 | 22/06/2026 | AWS SageMaker Documentation |
+| 3 | - Learn **S3 Event Notifications** mechanism and **AWS Lambda** <br> - Study **Amazon EventBridge** (Rules, Event Patterns, Targets) <br> - Add to architecture: Automation flow **S3 Event → Lambda DriftChecker → Pipeline Trigger** | 23/06/2026 | 23/06/2026 | AWS Event-Driven Architecture Guide |
+| 4 | - Draw detailed **Continuous Deployment (CD) Flow**: EventBridge catches `Model Approved` event → Lambda AutoDeployer → SageMaker Serverless Endpoint <br> - Research **SageMaker Serverless Inference** vs Real-time Provisioned Endpoint | 24/06/2026 | 24/06/2026 | SageMaker Serverless Docs |
+| 5 | - **Standardize architecture diagram v0.2:** Apply official AWS Architecture Icons, color-code each layer (Data/ML/Automation/Serving/Monitoring) <br> - Export diagram to PNG for inclusion in the team's Proposal document | 25/06/2026 | 25/06/2026 | draw.io / AWS Icon Pack |
+| 6 | - Team meeting: Present architecture v0.2 and coordinate with coding members to confirm resource names, region and IAM roles <br> - Add technical description of each AWS component to the Proposal document | 26/06/2026 | 26/06/2026 | Team Meeting |
 
 ### Week 2 Achievements:
 

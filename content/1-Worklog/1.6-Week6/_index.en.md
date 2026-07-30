@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 6 Worklog"
 date: 2026-07-20
 weight: 6
@@ -16,11 +16,11 @@ pre: " <b> 1.6. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Mon | - Study **Amazon API Gateway**: HTTP API vs REST API, Lambda Proxy Integration, Payload Format v2.0 <br> - Learn CORS Configuration and API security with Throttling <br> - Draw detailed **Real-time Inference Flow**: Client → API Gateway (POST /predict) → Lambda Handler → SageMaker Endpoint → JSON Response | 20/07/2026 | 20/07/2026 | API Gateway Developer Guide |
-| Tue | - Study **Amazon CloudWatch**: Metrics, Alarms, Log Groups, Metric Filters <br> - Understand the difference between Monitoring (CloudWatch), Logging (CloudWatch Logs) and Tracing (X-Ray) <br> - Draw **Monitoring & Alerting diagram**: CloudWatch Alarm (5XX Errors) → SNS → Email | 21/07/2026 | 21/07/2026 | CloudWatch User Guide |
-| Wed | - **Update overall architecture v1.2:** Add Serving Layer (API Gateway + Lambda Handler) and complete the Monitoring Layer <br> - Ensure diagram fully represents all 5 layers: Data / ML Pipeline / Automation / Serving / Monitoring | 22/07/2026 | 22/07/2026 | draw.io |
-| Thu | - Complete Vietnamese architecture descriptions for all Workshop pages: <br>&emsp; + 5.1: Overview & Architecture <br>&emsp; + 5.3: Implementation Steps (7 sub-steps) <br>&emsp; + 5.4: Test & Validation | 23/07/2026 | 23/07/2026 | Workshop Template |
-| Fri | - Translate all architecture descriptions into **English** to fulfill bilingual requirements <br> - Team review to ensure technical terminology is accurate and consistent across both languages | 24/07/2026 | 24/07/2026 | Team Meeting |
+| 2 | - Study **Amazon API Gateway**: HTTP API vs REST API, Lambda Proxy Integration, Payload Format v2.0 <br> - Learn CORS Configuration and API security with Throttling <br> - Draw detailed **Real-time Inference Flow**: Client → API Gateway (POST /predict) → Lambda Handler → SageMaker Endpoint → JSON Response | 20/07/2026 | 20/07/2026 | API Gateway Developer Guide |
+| 3 | - Study **Amazon CloudWatch**: Metrics, Alarms, Log Groups, Metric Filters <br> - Understand the difference between Monitoring (CloudWatch), Logging (CloudWatch Logs) and Tracing (X-Ray) <br> - Draw **Monitoring & Alerting diagram**: CloudWatch Alarm (5XX Errors) → SNS → Email | 21/07/2026 | 21/07/2026 | CloudWatch User Guide |
+| 4 | - **Update overall architecture v1.2:** Add Serving Layer (API Gateway + Lambda Handler) and complete the Monitoring Layer <br> - Ensure diagram fully represents all 5 layers: Data / ML Pipeline / Automation / Serving / Monitoring | 22/07/2026 | 22/07/2026 | draw.io |
+| 5 | - Complete Vietnamese architecture descriptions for all Workshop pages: <br>&emsp; + 5.1: Overview & Architecture <br>&emsp; + 5.3: Implementation Steps (7 sub-steps) <br>&emsp; + 5.4: Test & Validation | 23/07/2026 | 23/07/2026 | Workshop Template |
+| 6 | - Translate all architecture descriptions into **English** to fulfill bilingual requirements <br> - Team review to ensure technical terminology is accurate and consistent across both languages | 24/07/2026 | 24/07/2026 | Team Meeting |
 
 ### Week 6 Achievements:
 

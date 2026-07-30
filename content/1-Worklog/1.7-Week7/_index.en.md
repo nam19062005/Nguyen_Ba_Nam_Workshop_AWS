@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 7 Worklog"
 date: 2026-07-27
 weight: 7
@@ -16,11 +16,11 @@ pre: " <b> 1.7. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Mon | - Observe team running End-to-End test **Scenario 1** (Auto-Retrain): Upload new CSV → Lambda triggers → SageMaker Pipeline runs → SNS Email <br> - **Cross-reference actual flow with diagram:** Confirm all steps and resource names match 100% with designed architecture | 27/07/2026 | 27/07/2026 | AWS Console Observation |
-| Tue | - Observe team running End-to-End test **Scenario 2** (Real-time Inference): Send API request → Lambda Handler → SageMaker Endpoint → Receive JSON result <br> - Record test results (latency, accuracy) to add to **Validation Matrix** in documentation | 28/07/2026 | 28/07/2026 | AWS Console Observation |
-| Wed | - Study **AWS Well-Architected Framework** (5 pillars) <br> - Self-evaluate team architecture against each pillar: Security, Reliability, Performance, Cost, Operations <br> - Draft **Architecture Review** section for the Workshop Overview documentation | 29/07/2026 | 29/07/2026 | AWS Well-Architected Tool |
-| Thu | - Complete **5.4-Test-Validation** page content: <br>&emsp; + Validation Matrix table (Pass/Fail for each test case) <br>&emsp; + Annotate expected vs actual results <br> - Draft **5.5-Cleanup** page: Draw cleanup resource order diagram to prevent dependency errors | 30/07/2026 | 30/07/2026 | Workshop Template |
-| Fri | - **Final team review:** <br>&emsp; + Check all image links and architecture diagrams display correctly on Hugo website <br>&emsp; + Confirm all bilingual (VI/EN) content is complete and consistent | 31/07/2026 | 31/07/2026 | Hugo Website |
+| 2 | - Observe team running End-to-End test **Scenario 1** (Auto-Retrain): Upload new CSV → Lambda triggers → SageMaker Pipeline runs → SNS Email <br> - **Cross-reference actual flow with diagram:** Confirm all steps and resource names match 100% with designed architecture | 27/07/2026 | 27/07/2026 | AWS Console Observation |
+| 3 | - Observe team running End-to-End test **Scenario 2** (Real-time Inference): Send API request → Lambda Handler → SageMaker Endpoint → Receive JSON result <br> - Record test results (latency, accuracy) to add to **Validation Matrix** in documentation | 28/07/2026 | 28/07/2026 | AWS Console Observation |
+| 4 | - Study **AWS Well-Architected Framework** (5 pillars) <br> - Self-evaluate team architecture against each pillar: Security, Reliability, Performance, Cost, Operations <br> - Draft **Architecture Review** section for the Workshop Overview documentation | 29/07/2026 | 29/07/2026 | AWS Well-Architected Tool |
+| 5 | - Complete **5.4-Test-Validation** page content: <br>&emsp; + Validation Matrix table (Pass/Fail for each test case) <br>&emsp; + Annotate expected vs actual results <br> - Draft **5.5-Cleanup** page: Draw cleanup resource order diagram to prevent dependency errors | 30/07/2026 | 30/07/2026 | Workshop Template |
+| 6 | - **Final team review:** <br>&emsp; + Check all image links and architecture diagrams display correctly on Hugo website <br>&emsp; + Confirm all bilingual (VI/EN) content is complete and consistent | 31/07/2026 | 31/07/2026 | Hugo Website |
 
 ### Week 7 Achievements:
 

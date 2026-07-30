@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog"
 date: 2025-08-12
 weight: 1
