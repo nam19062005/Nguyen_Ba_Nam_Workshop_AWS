@@ -6,116 +6,109 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# SECURITY IN SOFTWARE DEVELOPMENT — IT'S NOT JUST ABOUT WRITING SECURE CODE
+# SECURITY IN SOFTWARE DEVELOPMENT — BEYOND SECURE CODING
 
 ### 1. Introduction
 
-While learning AWS, our group noticed something quite interesting. When starting a project, most of us focus solely on **"how to make the application run."** But once the application goes online, a far more important question emerges: **how to keep the application secure?**
+Throughout the journey of approaching and deploying solutions on AWS, an essential reality becomes clear: in early development stages, engineers often prioritize **"ensuring the application functions correctly"**. However, when the system is released to the Internet, the core challenge shifts: **How to guarantee absolute system security?**
 
-An application can run flawlessly in terms of functionality, yet a single misconfiguration or a small vulnerability can expose data or compromise the entire system at any moment. AWS provides not just the infrastructure to deploy applications, but an entire suite of services to build a security architecture from the ground up — not just patch holes after an incident occurs.
+An application with high functional performance can still be vulnerable if a single misconfiguration or small security flaw exists, potentially leading to data leaks or infrastructure compromise. The AWS ecosystem not only provides compute infrastructure but also equips a suite of specialized security services, enabling secure architecture design right from the start rather than reactively fixing incidents.
 
 ---
 
-### 2. Five Critical Security Lessons on AWS
+### 2. 5 Core Security Lessons on AWS Infrastructure
 
-#### 2.1. Never Store Access Keys in Source Code
+#### 2.1. Strict Management of Access Keys
 
-This is a mistake that many cloud newcomers have made. A typical example:
-
+Hardcoding credentials directly into source code is one of the most common mistakes in cloud infrastructure management:
 ```
 AWS_ACCESS_KEY="AKIAxxxxxxxx"
 AWS_SECRET_KEY="xxxxxxxxxxxxxxxx"
 ```
+When source code containing access keys is pushed to public repositories, attackers can instantly exploit these key pairs to hijack AWS resources. Numerous real-world incidents show accounts being abused for cryptocurrency mining or spawning massive fleets of EC2 instances, causing severe financial damage within hours.
 
-Then the entire project gets accidentally pushed to GitHub. If the repo is public, anyone can grab this key pair and use your AWS resources immediately. In reality, there have been numerous cases of compromised accounts being exploited for cryptocurrency mining or spinning up hundreds of EC2 instances simultaneously, generating massive bills within just a few hours.
-
-Instead of hardcoding Access Keys directly into source code, AWS recommends using:
+To eliminate credential leak risks, AWS recommends adopting standard identity management mechanisms:
 
 - **IAM Roles**
 - **Environment Variables**
 - **AWS Secrets Manager**
 - **AWS Systems Manager Parameter Store**
 
-These are all approaches that reduce the risk of credential leakage compared to hardcoding.
+#### 2.2. Principle of Least Privilege
 
-#### 2.2. The Principle of Least Privilege
+In IAM access management, the core principle is to **grant only the minimum permissions required to perform a task, and nothing more**.
 
-A concept our group found particularly important when learning IAM: **grant only the permissions needed, nothing more**.
+*Example:* An EC2 instance only needs to read data from Amazon S3. Instead of assigning the `AmazonS3FullAccess` policy, the optimal configuration should only grant `s3:GetObject` permission on the specific target bucket. This approach minimizes the blast radius if an account or service is compromised — a mandatory standard in enterprise architecture.
 
-For example, if an EC2 instance only needs to read data from Amazon S3, instead of granting `AmazonS3FullAccess`, you only need to grant `s3:GetObject` on the specific bucket required. This minimizes the damage if that account or service is ever compromised — and it's a very common principle in enterprise systems.
+#### 2.3. Subnet Segmentation Configuration
 
-#### 2.3. Not Every Resource Should Be Exposed to the Internet
+A common architectural flaw is placing all services into a Public Subnet — creating direct network connectivity from the Internet to Backend applications and Databases. If a Database has a Public IP paired with loose Security Group rules, port scanning and network attack risks increase dramatically.
 
-A fairly common deployment mistake is putting every service in a Public Subnet — essentially Internet directly connecting to Backend, then Backend directly connecting to Database. If the database has a public IP and the Security Group is loosely configured, the risk of port scanning or attacks increases significantly.
-
-A more secure architecture typically maintains a clear separation:
+A secure standard architectural model requires a clear separation across tiers:
 
 > **Internet → Load Balancer → Backend (Public Subnet) → Database (Private Subnet)**
 
-The database sits in a Private Subnet, accessible only by the Backend — not directly exposed to the outside. This architectural pattern is heavily referenced in the **AWS Well-Architected Framework**.
+Accordingly, the Database is isolated in a Private Subnet and only accepts internal access from the Backend tier. This is a standard architecture pattern recommended in the **AWS Well-Architected Framework**.
 
-#### 2.4. Protecting Applications from Web Attacks
+#### 2.4. Layered Protection for Web Applications
 
-Even when code is well-written, applications can still be attacked with malicious requests — SQL Injection, Cross-Site Scripting (XSS), automated bots flooding thousands of requests, or application-layer DDoS.
+Even when source code is optimized, applications still face application-layer attacks such as SQL Injection, Cross-Site Scripting (XSS), automated bot attacks, or DDoS.
 
-**AWS WAF (Web Application Firewall)** was designed to filter these requests before they reach the application. WAF can:
+**AWS WAF (Web Application Firewall)** acts as a traffic filtering layer before requests reach the application. The service provides capabilities to:
 
-- Block suspicious IPs
-- Rate-limit requests from a single IP address
-- Detect common attack patterns based on OWASP standards
-- Block requests containing malicious payloads
+- Block access from malicious IP addresses
+- Rate limit incoming requests per IP
+- Identify and block attack patterns according to OWASP standards
+- Inspect and filter out payloads containing malicious code
 
-As a result, the application experiences reduced load and improved resilience against Internet-based attacks.
+Consequently, the system reduces processing overhead on the Backend while boosting defense capabilities against Internet threats.
 
-#### 2.5. The System Is Running — How Do You Know If It's Under Attack?
+#### 2.5. Continuous Security & Behavior Monitoring
 
-Security doesn't stop at correct initial configuration — it requires **continuous monitoring**. AWS offers several services to support this:
+Infrastructure security does not stop at initial configuration but requires **continuous monitoring**. AWS provides a comprehensive suite of security monitoring services:
 
-- **Amazon GuardDuty:** Analyzes data from AWS CloudTrail, VPC Flow Logs, and DNS Logs to detect anomalous behavior — logins from unusual geographic locations, an EC2 suddenly pushing large volumes of data outward, bot-like API calls, or access from known-malicious IPs. Instead of manually sifting through millions of log lines, GuardDuty automatically generates alerts for administrators to investigate.
+- **Amazon GuardDuty:** Analyzes log data from AWS CloudTrail, VPC Flow Logs, and DNS Logs to detect anomalous behavior — such as logins from unusual locations, EC2 instances generating abnormal outbound traffic, or automated botnet activity. GuardDuty synthesizes findings and issues real-time alerts for proactive mitigation.
 
-- **Amazon Inspector:** Addresses a different problem — an application may run normally yet still harbor internal vulnerabilities. Inspector scans EC2 instances, container images, and software libraries to detect unsupported packages, libraries with CVE vulnerabilities, or insecure configurations — especially valuable for Docker-based or microservices architectures.
+- **Amazon Inspector:** Focuses on detecting internal software and infrastructure vulnerabilities. It automatically scans EC2 instances, Container Images, and software libraries to discover end-of-life dependencies, CVE vulnerabilities, or security misconfigurations.
 
-- **AWS Security Hub:** Acts as a central aggregation hub when an enterprise uses multiple security services simultaneously. It consolidates findings from GuardDuty, Inspector, IAM Access Analyzer, AWS Config, and Macie into a single dashboard, making it much easier for operations teams to grasp the overall security posture.
-
----
-
-### 3. Common Deployment Challenges
-
-#### 3.1. Server Slowness Under High Traffic
-
-This isn't exactly an error, but a very common situation. A team's website might run smoothly with a few dozen visitors, but on project defense day, 200 students access it simultaneously — and the server overloads immediately: pages load very slowly, APIs respond sluggishly, some requests time out.
-
-Combining **Amazon EC2 Auto Scaling** with **Elastic Load Balancer**, the system can automatically provision additional servers when needed and distribute requests evenly across multiple instances, allowing the application to maintain performance even during sudden traffic spikes.
-
-#### 3.2. Data Loss After Server Replacement
-
-Another common beginner mistake is storing all images or uploaded files directly on the server (e.g., an `uploads/` folder living right on the EC2 instance). The problem is, if a new EC2 instance is created or the server encounters an issue, these files can disappear if not backed up in time.
-
-That's why **Amazon S3** is typically used to store images, videos, PDFs, backups, and system logs — while EC2 focuses solely on application logic. Separating data storage from application execution reduces the risk of data loss and makes future scaling easier.
+- **AWS Security Hub:** Functions as a centralized security management hub. It aggregates assessment results from GuardDuty, Inspector, IAM Access Analyzer, AWS Config, and Macie into a single pane of glass, giving operation teams a holistic view of the system's security posture.
 
 ---
 
-### 4. What Our Team Learned
+### 3. Solving Real-World Operational Challenges
 
-After studying AWS and exploring security solutions further, what our team realized is: **security is not a feature bolted on after the project is finished** — it should be part of the system design process from the very beginning. Similarly, most deployment incidents don't stem from "bad code" — they come from how the system is configured and operated.
+#### 3.1. Performance Optimization During Traffic Spikes
 
-Some useful principles to remember:
+Network congestion or system overload often occurs when user traffic exceeds the serving capacity of single-instance infrastructure, leading to increased latency or request timeouts.
 
-- Never store credentials in source code
-- Apply the Principle of Least Privilege
-- Clearly separate Public and Private resources
-- Monitor systems continuously, not just react to incidents
-- Regularly scan for vulnerabilities and update libraries
-- Track operational status and log comprehensively
-- Design systems with fault tolerance and scalability in mind
+By combining **Amazon EC2 Auto Scaling** and **Elastic Load Balancer (ELB)**, the system can automatically launch additional compute instances and evenly distribute incoming traffic. This ensures high availability and stable performance even during sudden traffic spikes.
 
-For learning projects, it may not always be necessary to deploy full GuardDuty or Security Hub. But understanding why they exist and what problems they solve helps our team develop the mindset to build more secure and professional systems when stepping into real-world projects.
+#### 3.2. Stateless Architecture & Independent Data Management
 
-That is also why AWS doesn't just provide compute or storage services — it builds an entire ecosystem supporting deployment, monitoring, and operation in real-world environments.
+Storing user uploads (media, files) directly on local server storage (e.g., `uploads/` directory on EC2) creates a massive bottleneck when scaling out or replacing instances, increasing data loss risks.
+
+Adopting **Amazon S3** as a dedicated object storage service for images, documents, and backups completely decouples Storage from Compute. This model not only secures data but also optimizes overall system scalability.
 
 ---
 
-**Author Team:** Thành Nhân, Nguyễn Bá Nam, Nam Phan, Nguyễn Trọng Nhân
+### 4. Conclusion
+
+Cloud infrastructure implementation proves that: **Security is not an afterthought, but must be a core principle in system architecture design from day one**. The majority of security incidents stem not from code syntax bugs, but from misconfigurations and operational oversights.
+
+Core governance rules to follow:
+
+- Never store access keys in source code
+- Strictly enforce the Principle of Least Privilege
+- Thoroughly isolate Public and Private subnets
+- Establish continuous security monitoring and logging systems
+- Periodically scan for vulnerabilities and update dependencies
+- Ensure fault tolerance and scalability for infrastructure
+
+For real-world engineering problems, understanding the technical nature and problems solved by AWS security services shapes a standardized, secure, and production-ready system mindset.
+
+---
+
+**Authors:** Thành Nhân, Nguyễn Bá Nam, Nam Phan, Nguyễn Trọng Nhân
 
 **References:**
 - [IAM Best Practices (AWS Docs)](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)

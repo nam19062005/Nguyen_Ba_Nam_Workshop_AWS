@@ -1,4 +1,4 @@
-﻿---
+---
 title : "Các bước chuẩn bị"
 date : 2026-07-27
 weight : 2

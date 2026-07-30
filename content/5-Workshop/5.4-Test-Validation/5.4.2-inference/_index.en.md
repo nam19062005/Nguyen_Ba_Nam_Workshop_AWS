@@ -1,4 +1,4 @@
-﻿---
+---
 title : "Test Real-time Inference Flow"
 date : 2026-07-29
 weight : 2
@@ -35,9 +35,9 @@ Create payload.json file containing features of a telecom customer needing Churn
 ```
 
 #### 2. Execute Request via cURL / Postman
-Open Terminal and send POST request to the deployed API Gateway Invoke URL:
+Open your Terminal and send a POST request to the secured CloudFront Domain URL:
 ```powershell
-curl.exe -X POST https://c6kbjaktj9.execute-api.ap-southeast-1.amazonaws.com/predict \
+curl.exe -X POST https://d1jj1dyq01crgf.cloudfront.net/predict \
          -H "Content-Type: application/json" \
          -d "@payload.json"
 ```
@@ -49,7 +49,7 @@ Successful result (HTTP 200 OK):
 
 
 #### 4. Inspect Logs & Metrics on Amazon CloudWatch
-- Access CloudWatch $\rightarrow$ Log groups $\rightarrow$ open logs for /aws/lambda/telco-churn-api-handler
+- Access CloudWatch => Log groups => open logs for /aws/lambda/telco-churn-api-handler
    ![api-logs](/images/5-Workshop/5.4-Test-Validation/api-logs.png)
 - Init Duration: 442.40 ms: 
   - This is the execution environment initialization time (Cold Start) for the first time Lambda runs

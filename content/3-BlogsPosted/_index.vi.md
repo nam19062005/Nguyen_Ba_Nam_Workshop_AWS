@@ -5,26 +5,20 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-Trong suốt thời gian thực tập tại FCAJ, nhóm chúng tôi đã cùng nhau nghiên cứu, thảo luận và viết 2 bài blog chuyên sâu chia sẻ kiến thức về AWS lên cộng đồng [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Mỗi bài blog là kết quả của quá trình tìm hiểu thực tế, đúc kết từ những vấn đề chúng tôi gặp phải khi làm việc với các dịch vụ AWS.
+Trong quá trình thực tập tại FCAJ, nhóm chúng tôi đã tiến hành nghiên cứu, thảo luận và hoàn thiện 2 bài viết chuyên sâu về hệ sinh thái AWS, được chia sẻ tới cộng đồng [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Mỗi bài viết là kết quả của quá trình tổng hợp tri thức kỹ thuật và đúc kết kinh nghiệm thực tiễn từ các bài toán vận hành trên nền tảng AWS.
 
 ---
 
-###  [Blog 1 - BÀI TOÁN CẠN KIỆT KẾT NỐI VỚI RDS PROXY](3.1-Blog1/)
+### [Blog 1 - BÀI TOÁN CẠN KIỆT KẾT NỐI VỚI RDS PROXY](3.1-Blog1/)
 
-Bài toán **Connection Exhaustion** xảy ra khi kết hợp kiến trúc Serverless (AWS Lambda) với cơ sở dữ liệu quan hệ truyền thống (Amazon RDS). Hàng nghìn hàm Lambda đồng thời mở kết nối khiến RDS bị quá tải và từ chối phục vụ. Blog phân tích chi tiết cơ chế gây lỗi và cách **Amazon RDS Proxy** giải quyết qua 3 tính năng cốt lõi: Multiplexing, Graceful Failover, và IAM Authentication.
+Phân tích chuyên sâu sự cố **Connection Exhaustion (Cạn kiệt kết nối)** phát sinh khi tích hợp kiến trúc Serverless (AWS Lambda) với các hệ cơ sở dữ liệu quan hệ (Amazon RDS). Bài viết làm rõ bản chất điểm nghẽn hệ thống khi hàng nghìn instance Lambda đồng thời khởi tạo kết nối, đồng thời trình bày giải pháp tối ưu thông qua **Amazon RDS Proxy** dựa trên 3 trụ cột kỹ thuật: Multiplexing, Failover linh hoạt và Xác thực IAM.
 
-> **Ngày đăng:** 20/06/2026 | **Nhóm tác giả:** Thành Nhân, Nguyễn Cảnh Nguyên, Nguyễn Trọng Nhân, Nam Phan, Nguyễn Bá Nam
-
----
-
-###  [Blog 2 - BẢO MẬT TRONG PHÁT TRIỂN PHẦN MỀM TRÊN AWS](3.2-Blog2/)
-
-Blog tổng hợp 5 bài học bảo mật quan trọng khi phát triển và triển khai ứng dụng trên AWS: không hardcode Access Key, áp dụng nguyên tắc **Least Privilege**, phân tách Public/Private Subnet, bảo vệ ứng dụng với **AWS WAF**, và giám sát liên tục với **GuardDuty, Inspector, Security Hub**. Kèm theo các tình huống thực tế thường gặp như quá tải server và mất dữ liệu khi thay server.
-
-> **Ngày đăng:** 10/07/2026 | **Nhóm tác giả:** Thành Nhân, Nguyễn Bá Nam, Nam Phan, Nguyễn Trọng Nhân
 
 ---
 
-{{% notice info %}}
-Cả 2 bài blog đều được đăng tải trên group [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj) — nơi cộng đồng cùng nhau chia sẻ và học hỏi kiến thức về AWS Cloud.
-{{% /notice %}}
+### [Blog 2 - BẢO MẬT TRONG PHÁT TRIỂN PHẦN MỀM TRÊN AWS](3.2-Blog2/)
+
+Tổng hợp 5 nguyên tắc bảo mật cốt lõi trong quy trình phát triển và triển khai ứng dụng trên hạ tầng AWS: Quản lý thông tin xác thực an toàn, áp dụng nguyên tắc cấp quyền tối thiểu (**Least Privilege**), phân vùng mạng Public/Private Subnet, phân tầng bảo vệ ứng dụng với **AWS WAF**, và thiết lập hệ thống giám sát an ninh tự động (**GuardDuty, Inspector, Security Hub**). Bài viết cũng đưa ra các phương án giải quyết cho những thách thức vận hành thực tế như xử lý quá tải lưu lượng và quản lý trạng thái dữ liệu độc lập.
+
+
+
