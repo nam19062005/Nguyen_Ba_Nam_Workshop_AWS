@@ -35,14 +35,12 @@ chapter: false
 
 ---
 
-### 📋 Mục lục nội dung báo cáo
+### Nội dung báo cáo
 
-Nhấp vào các mục dưới đây để xem chi tiết nội dung báo cáo:
-
-1. 📂 [1. Nhật ký công việc](1-worklog/)
-2. 📂 [2. Bản đề xuất](2-proposal/)
-3. 📂 [3. Các bài blogs đã đăng](3-blogsposted/)
-4. 📂 [4. Các events đã tham gia](4-eventparticipated/)
-5. 📂 [5. Workshop Dự án cá nhân](5-workshop/)
-6. 📂 [6. Tự đánh giá bản thân](6-self-evaluation/)
-7. 📂 [7. Chia sẻ & Đóng góp ý kiến](7-feedback/)
+1. [Worklog](1-Worklog/)
+2. [Proposal](2-Proposal/)
+3. [Các bài blogs đã đăng](3-BlogsPosted/)
+4. [Các events đã tham gia](4-EventParticipated/)
+5. [Workshop](5-Workshop/)
+6. [Tự đánh giá](6-Self-evaluation/)
+7. [Chia sẻ, đóng góp ý kiến](7-Feedback/)

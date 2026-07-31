@@ -35,14 +35,12 @@ chapter: false
 
 ---
 
-### 📋 Report Content Directory
+### Report Content
 
-Click on any section below to navigate to detailed content:
-
-1. 📂 [1. Worklog](1-worklog/)
-2. 📂 [2. Proposal](2-proposal/)
-3. 📂 [3. Blogs Posted](3-blogsposted/)
-4. 📂 [4. Events Participated](4-eventparticipated/)
-5. 📂 [5. Workshop Project](5-workshop/)
-6. 📂 [6. Self-Evaluation](6-self-evaluation/)
-7. 📂 [7. Sharing and Feedback](7-feedback/)
+1. [Worklog](1-Worklog/)
+2. [Proposal](2-Proposal/)
+3. [Blogs Posted](3-BlogsPosted/)
+4. [Events Participated](4-EventParticipated/)
+5. [Workshop Project](5-Workshop/)
+6. [Self-Evaluation](6-Self-evaluation/)
+7. [Sharing and Feedback](7-Feedback/)
