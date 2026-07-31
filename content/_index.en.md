@@ -29,7 +29,7 @@ chapter: false
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 15/06/2026 to 14/08/2026
+&emsp; **Internship Duration:** From 08/06/2026 to 14/08/2026
 
 ![Student Profile Picture - Nguyen Ba Nam](/images/avatar.jpg)
 
@@ -46,4 +46,3 @@ Click on any section below to navigate to detailed content:
 5. 📂 [5. Workshop Project](5-workshop/)
 6. 📂 [6. Self-Evaluation](6-self-evaluation/)
 7. 📂 [7. Sharing and Feedback](7-feedback/)
-
